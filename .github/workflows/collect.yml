@@ -1,25 +1,33 @@
-# Automatický zber cien z GW2 — beží na pozadí v GitHub Actions (zadarmo).
-# Každú hodinu stiahne ceny, prepočíta tipy a commitne public/data/tips.json.
-name: Zber cien (collect)
+# Zber dát z GW2 + nasadenie dashboardu na GitHub Pages (všetko zadarmo).
+#  - každú hodinu (cron) stiahne ceny, prepočíta tipy, commitne tips.json
+#  - potom zbuilduje stránku a nasadí ju na GitHub Pages
+#  - beží aj pri push do main (nasadí zmeny kódu) a dá sa spustiť ručne
+name: Zber dát a nasadenie (collect + deploy)
 
 on:
   schedule:
     # Každú hodinu v minúte 17 (mimo špičky). Cron môže mierne kolísať.
     - cron: '17 * * * *'
-  workflow_dispatch: {} # umožní spustiť ručne z GitHub UI
+  push:
+    branches: [main]
+  workflow_dispatch: {}
 
-# Potrebné, aby workflow mohol commitnúť aktualizované dáta.
 permissions:
-  contents: write
+  contents: write # commit tips.json
+  pages: write # nasadenie na Pages
+  id-token: write # overenie pre Pages
 
-# Ak beží starší beh, nový ho nahradí (netreba duplikáty).
+# Nech sa behy neprekrývajú (cron vs push).
 concurrency:
-  group: collect
+  group: site
   cancel-in-progress: false
 
 jobs:
-  collect:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -27,13 +35,14 @@ jobs:
         with:
           node-version: '24'
 
-      # POZN.: zámerne `npm install`, NIE `npm ci` — lock súbor je z Windowsu
-      # a `npm ci` by v Linux CI mohol padnúť na EBADPLATFORM (viď CLAUDE.md).
+      # POZN.: `npm install`, NIE `npm ci` — lock je z Windowsu a `npm ci`
+      # by v Linux CI mohol padnúť na EBADPLATFORM (viď CLAUDE.md).
       - run: npm install
 
+      # 1) Zber dát
       - run: npm run collect
 
-      - name: Commit aktualizovaných tipov
+      - name: Commit aktualizovaných dát
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -44,3 +53,16 @@ jobs:
             git commit -m "Dáta: aktualizácia tipov ($(date -u +%FT%TZ))"
             git push
           fi
+
+      # 2) Build stránky s nastaveným base pre Pages
+      - run: npm run build
+        env:
+          VITE_BASE: /gw2-flip-asistent/
+
+      # 3) Nasadenie na GitHub Pages
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

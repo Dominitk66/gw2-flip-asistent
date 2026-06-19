@@ -5,6 +5,15 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Dashboard + živá webstránka (2026-06-20)
+Appka má konečne tvár! Pridali sme prehľadnú stránku, kde vidíš rebríček
+najlepších tipov zoradený podľa zisku na vložený kapitál za deň. Zadáš svoj
+rozpočet v zlate a pri každom tipe ti appka povie, koľko kusov kúpiť a aký
+denný zisk čakať. Stránku sme zverejnili na bezplatnej adrese
+(dominitk66.github.io/gw2-flip-asistent) — otvoríš ju z počítača aj z mobilu.
+Vzhľad je tmavý v duchu GW2 (zlatá + tmavá). Dáta aj samotná stránka sa
+obnovujú automaticky každú hodinu.
+
 ### Pridané — Zberač príležitostí + automatika na pozadí (2026-06-20)
 Appka teraz prejde celý Trading Post (~28 000 položiek) a vyberie 100 najlepších
 flip príležitostí do zoznamu. Ten sa bude automaticky obnovovať každú hodinu cez
