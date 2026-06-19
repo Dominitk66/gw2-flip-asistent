@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:23:26.380Z",
+  "generatedAt": "2026-06-19T23:27:04.873Z",
   "count": 100,
   "tips": [
     {
@@ -10,11 +10,11 @@
       "buy": 4,
       "sell": 10,
       "supply": 13328351,
-      "demand": 2425280,
+      "demand": 2425276,
       "unitProfit": 4,
       "marginPct": 100,
-      "dailyVolumeEstimate": 2425280,
-      "score": 638.4762064455551
+      "dailyVolumeEstimate": 2425276,
+      "score": 638.4761348175929
     },
     {
       "id": 77648,
@@ -24,25 +24,11 @@
       "buy": 5,
       "sell": 12,
       "supply": 5168310,
-      "demand": 1384517,
+      "demand": 1384341,
       "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 1384517,
-      "score": 614.1298606343679
-    },
-    {
-      "id": 8594,
-      "name": "Jug of Friesson's Ale",
-      "icon": "https://render.guildwars2.com/file/CDDAD80F43DD91C35B99C513CB47DA07A9D7F4CA/63100.png",
-      "rarity": "Basic",
-      "buy": 6,
-      "sell": 14,
-      "supply": 515759,
-      "demand": 570674,
-      "unitProfit": 6,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 515759,
-      "score": 571.2447657203049
+      "dailyVolumeEstimate": 1384341,
+      "score": 614.1243395297315
     },
     {
       "id": 36077,
@@ -66,11 +52,11 @@
       "buy": 2,
       "sell": 6,
       "supply": 363668,
-      "demand": 189235,
+      "demand": 189228,
       "unitProfit": 2,
       "marginPct": 100,
-      "dailyVolumeEstimate": 189235,
-      "score": 527.7003759518742
+      "dailyVolumeEstimate": 189228,
+      "score": 527.6987694300697
     },
     {
       "id": 77747,
@@ -108,11 +94,25 @@
       "buy": 5,
       "sell": 11,
       "supply": 4655136,
-      "demand": 1967916,
+      "demand": 1967739,
       "unitProfit": 4,
       "marginPct": 80,
-      "dailyVolumeEstimate": 1967916,
-      "score": 503.5205421942053
+      "dailyVolumeEstimate": 1967739,
+      "score": 503.5174171201107
+    },
+    {
+      "id": 8594,
+      "name": "Jug of Friesson's Ale",
+      "icon": "https://render.guildwars2.com/file/CDDAD80F43DD91C35B99C513CB47DA07A9D7F4CA/63100.png",
+      "rarity": "Basic",
+      "buy": 6,
+      "sell": 13,
+      "supply": 515844,
+      "demand": 575413,
+      "unitProfit": 5,
+      "marginPct": 83.33333333333334,
+      "dailyVolumeEstimate": 515844,
+      "score": 476.0432687794782
     },
     {
       "id": 75689,
@@ -149,12 +149,12 @@
       "rarity": "Rare",
       "buy": 27,
       "sell": 63,
-      "supply": 40320,
+      "supply": 40321,
       "demand": 58086,
       "unitProfit": 27,
       "marginPct": 100,
-      "dailyVolumeEstimate": 40320,
-      "score": 460.55312944964066
+      "dailyVolumeEstimate": 40321,
+      "score": 460.5542065288216
     },
     {
       "id": 24279,
@@ -163,7 +163,7 @@
       "rarity": "Fine",
       "buy": 8,
       "sell": 18,
-      "supply": 322101,
+      "supply": 322269,
       "demand": 106885,
       "unitProfit": 7,
       "marginPct": 87.5,
@@ -625,7 +625,7 @@
       "rarity": "Basic",
       "buy": 16,
       "sell": 34,
-      "supply": 56373,
+      "supply": 56364,
       "demand": 29853,
       "unitProfit": 13,
       "marginPct": 81.25,
@@ -717,20 +717,6 @@
       "score": 356.23548681760684
     },
     {
-      "id": 19742,
-      "name": "Bolt of Cotton",
-      "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
-      "rarity": "Basic",
-      "buy": 7,
-      "sell": 17,
-      "supply": 2235519,
-      "demand": 3574,
-      "unitProfit": 7,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 3574,
-      "score": 355.3276046137099
-    },
-    {
       "id": 19794,
       "name": "Spool of Cotton Thread",
       "icon": "https://render.guildwars2.com/file/CA4D34A3DC110C25E39F290EA020070E0D006B08/65996.png",
@@ -757,6 +743,20 @@
       "marginPct": 100,
       "dailyVolumeEstimate": 3558,
       "score": 355.1327988003846
+    },
+    {
+      "id": 19742,
+      "name": "Bolt of Cotton",
+      "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
+      "rarity": "Basic",
+      "buy": 7,
+      "sell": 17,
+      "supply": 2235766,
+      "demand": 3554,
+      "unitProfit": 7,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 3554,
+      "score": 355.0839605065785
     },
     {
       "id": 12441,
@@ -1017,12 +1017,12 @@
       "rarity": "Rare",
       "buy": 11,
       "sell": 20,
-      "supply": 1628373,
+      "supply": 1628390,
       "demand": 8162177,
       "unitProfit": 6,
       "marginPct": 54.54545454545454,
-      "dailyVolumeEstimate": 1628373,
-      "score": 338.82295415175156
+      "dailyVolumeEstimate": 1628390,
+      "score": 338.82320145816067
     },
     {
       "id": 12439,
@@ -1045,12 +1045,12 @@
       "rarity": "Rare",
       "buy": 104,
       "sell": 234,
-      "supply": 4804,
+      "supply": 4805,
       "demand": 7883,
       "unitProfit": 95,
       "marginPct": 91.34615384615384,
-      "dailyVolumeEstimate": 4804,
-      "score": 336.3085310004169
+      "dailyVolumeEstimate": 4805,
+      "score": 336.3167863600468
     },
     {
       "id": 24874,
@@ -1087,7 +1087,7 @@
       "rarity": "Basic",
       "buy": 16,
       "sell": 31,
-      "supply": 248144,
+      "supply": 248044,
       "demand": 234432,
       "unitProfit": 10,
       "marginPct": 62.5,
@@ -1191,6 +1191,20 @@
       "marginPct": 83.53658536585365,
       "dailyVolumeEstimate": 8855,
       "score": 329.7387513891959
+    },
+    {
+      "id": 74598,
+      "name": "Arid Lumber Core",
+      "icon": "https://render.guildwars2.com/file/BDEAEB0F2A28614313386FD41E07F1D10E4B5775/455860.png",
+      "rarity": "Rare",
+      "buy": 4,
+      "sell": 9,
+      "supply": 220005,
+      "demand": 24757,
+      "unitProfit": 3,
+      "marginPct": 75,
+      "dailyVolumeEstimate": 24757,
+      "score": 329.5286668951104
     },
     {
       "id": 9357,
@@ -1387,20 +1401,6 @@
       "marginPct": 100,
       "dailyVolumeEstimate": 1751,
       "score": 324.35341018320617
-    },
-    {
-      "id": 24711,
-      "name": "Superior Rune of Vampirism",
-      "icon": "https://render.guildwars2.com/file/F13EECC6AED473604A097A5DBB0861E3410702EF/220724.png",
-      "rarity": "Exotic",
-      "buy": 259,
-      "sell": 578,
-      "supply": 9352,
-      "demand": 4128,
-      "unitProfit": 232,
-      "marginPct": 89.57528957528957,
-      "dailyVolumeEstimate": 4128,
-      "score": 323.8903524428305
     }
   ]
 }
