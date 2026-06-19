@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-06-19T23:18:27.353Z",
+  "generatedAt": "2026-06-19T23:23:26.380Z",
   "count": 100,
   "tips": [
+    {
+      "id": 19719,
+      "name": "Rawhide Leather Section",
+      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
+      "rarity": "Basic",
+      "buy": 4,
+      "sell": 10,
+      "supply": 13328351,
+      "demand": 2425280,
+      "unitProfit": 4,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 2425280,
+      "score": 638.4762064455551
+    },
     {
       "id": 77648,
       "name": "Cup of Spiced Apple Cider",
@@ -22,13 +36,13 @@
       "icon": "https://render.guildwars2.com/file/CDDAD80F43DD91C35B99C513CB47DA07A9D7F4CA/63100.png",
       "rarity": "Basic",
       "buy": 6,
-      "sell": 15,
-      "supply": 515453,
-      "demand": 570699,
+      "sell": 14,
+      "supply": 515759,
+      "demand": 570674,
       "unitProfit": 6,
       "marginPct": 100,
-      "dailyVolumeEstimate": 515453,
-      "score": 571.2189914163557
+      "dailyVolumeEstimate": 515759,
+      "score": 571.2447657203049
     },
     {
       "id": 36077,
@@ -52,11 +66,11 @@
       "buy": 2,
       "sell": 6,
       "supply": 363668,
-      "demand": 189237,
+      "demand": 189235,
       "unitProfit": 2,
       "marginPct": 100,
-      "dailyVolumeEstimate": 189237,
-      "score": 527.700834947189
+      "dailyVolumeEstimate": 189235,
+      "score": 527.7003759518742
     },
     {
       "id": 77747,
@@ -79,12 +93,12 @@
       "rarity": "Rare",
       "buy": 7,
       "sell": 17,
-      "supply": 117763,
+      "supply": 117762,
       "demand": 150777,
       "unitProfit": 7,
       "marginPct": 100,
-      "dailyVolumeEstimate": 117763,
-      "score": 507.10125485934964
+      "dailyVolumeEstimate": 117762,
+      "score": 507.1008860740453
     },
     {
       "id": 77667,
@@ -93,40 +107,12 @@
       "rarity": "Basic",
       "buy": 5,
       "sell": 11,
-      "supply": 4652914,
-      "demand": 1967917,
+      "supply": 4655136,
+      "demand": 1967916,
       "unitProfit": 4,
       "marginPct": 80,
-      "dailyVolumeEstimate": 1967917,
-      "score": 503.52055984919264
-    },
-    {
-      "id": 24279,
-      "name": "Small Venom Sac",
-      "icon": "https://render.guildwars2.com/file/0C04FDFF465A682BB080F272E9DB3DBC0637113D/66935.png",
-      "rarity": "Fine",
-      "buy": 8,
-      "sell": 19,
-      "supply": 321822,
-      "demand": 106885,
-      "unitProfit": 8,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 106885,
-      "score": 502.8920824751168
-    },
-    {
-      "id": 19719,
-      "name": "Rawhide Leather Section",
-      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
-      "rarity": "Basic",
-      "buy": 4,
-      "sell": 9,
-      "supply": 13329101,
-      "demand": 2425314,
-      "unitProfit": 3,
-      "marginPct": 75,
-      "dailyVolumeEstimate": 2425314,
-      "score": 478.85761145884874
+      "dailyVolumeEstimate": 1967916,
+      "score": 503.5205421942053
     },
     {
       "id": 75689,
@@ -136,7 +122,7 @@
       "buy": 3,
       "sell": 8,
       "supply": 47620,
-      "demand": 47817,
+      "demand": 47816,
       "unitProfit": 3,
       "marginPct": 100,
       "dailyVolumeEstimate": 47620,
@@ -171,18 +157,18 @@
       "score": 460.55312944964066
     },
     {
-      "id": 19730,
-      "name": "Coarse Leather Section",
-      "icon": "https://render.guildwars2.com/file/0BDAA40E3795930BBF3DC5ACE366ABAE2D5BBFB2/65947.png",
-      "rarity": "Basic",
-      "buy": 11,
-      "sell": 23,
-      "supply": 5005986,
-      "demand": 286241,
-      "unitProfit": 9,
-      "marginPct": 81.81818181818183,
-      "dailyVolumeEstimate": 286241,
-      "score": 446.4600019928698
+      "id": 24279,
+      "name": "Small Venom Sac",
+      "icon": "https://render.guildwars2.com/file/0C04FDFF465A682BB080F272E9DB3DBC0637113D/66935.png",
+      "rarity": "Fine",
+      "buy": 8,
+      "sell": 18,
+      "supply": 322101,
+      "demand": 106885,
+      "unitProfit": 7,
+      "marginPct": 87.5,
+      "dailyVolumeEstimate": 106885,
+      "score": 440.0305721657272
     },
     {
       "id": 38460,
@@ -261,7 +247,7 @@
       "rarity": "Rare",
       "buy": 58,
       "sell": 133,
-      "supply": 29712,
+      "supply": 29717,
       "demand": 25382,
       "unitProfit": 55,
       "marginPct": 94.82758620689656,
@@ -339,20 +325,6 @@
       "score": 404.8077419067389
     },
     {
-      "id": 12135,
-      "name": "Potato",
-      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
-      "rarity": "Basic",
-      "buy": 13,
-      "sell": 27,
-      "supply": 1216425,
-      "demand": 162594,
-      "unitProfit": 10,
-      "marginPct": 76.92307692307693,
-      "dailyVolumeEstimate": 162594,
-      "score": 400.8543989510654
-    },
-    {
       "id": 68636,
       "name": "Sweet Bean Bun",
       "icon": "https://render.guildwars2.com/file/D76D20C351D506FE800D70D93D43A87E0D18A40E/1341447.png",
@@ -360,11 +332,11 @@
       "buy": 3,
       "sell": 7,
       "supply": 1095228,
-      "demand": 1020737,
+      "demand": 1020734,
       "unitProfit": 2,
       "marginPct": 66.66666666666666,
-      "dailyVolumeEstimate": 1020737,
-      "score": 400.5942855314859
+      "dailyVolumeEstimate": 1020734,
+      "score": 400.5942004371483
     },
     {
       "id": 12992,
@@ -407,20 +379,6 @@
       "marginPct": 99.26470588235294,
       "dailyVolumeEstimate": 7707,
       "score": 385.83612522629494
-    },
-    {
-      "id": 36074,
-      "name": "Bowl of Candy Corn Custard",
-      "icon": "https://render.guildwars2.com/file/21B563FEFA9FA405B5B50C6E1704007F0B2408B6/499404.png",
-      "rarity": "Fine",
-      "buy": 29,
-      "sell": 57,
-      "supply": 743381,
-      "demand": 3193097,
-      "unitProfit": 19,
-      "marginPct": 65.51724137931035,
-      "dailyVolumeEstimate": 743381,
-      "score": 384.66561648111264
     },
     {
       "id": 77653,
@@ -647,13 +605,27 @@
       "score": 364.60144391540996
     },
     {
+      "id": 36074,
+      "name": "Bowl of Candy Corn Custard",
+      "icon": "https://render.guildwars2.com/file/21B563FEFA9FA405B5B50C6E1704007F0B2408B6/499404.png",
+      "rarity": "Fine",
+      "buy": 29,
+      "sell": 56,
+      "supply": 743614,
+      "demand": 3193097,
+      "unitProfit": 18,
+      "marginPct": 62.06896551724138,
+      "dailyVolumeEstimate": 743614,
+      "score": 364.42850534433074
+    },
+    {
       "id": 71307,
       "name": "Jute Patch",
       "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
       "rarity": "Basic",
       "buy": 16,
       "sell": 34,
-      "supply": 56376,
+      "supply": 56373,
       "demand": 29853,
       "unitProfit": 13,
       "marginPct": 81.25,
@@ -680,13 +652,27 @@
       "icon": "https://render.guildwars2.com/file/64A79CCD42D858AA7FF39A0CF1AEEC800FE1966F/220986.png",
       "rarity": "Masterwork",
       "buy": 140,
-      "sell": 325,
-      "supply": 16366,
+      "sell": 324,
+      "supply": 16367,
       "demand": 5455,
       "unitProfit": 136,
       "marginPct": 97.14285714285714,
       "dailyVolumeEstimate": 5455,
       "score": 363.0106522744182
+    },
+    {
+      "id": 12135,
+      "name": "Potato",
+      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
+      "rarity": "Basic",
+      "buy": 13,
+      "sell": 26,
+      "supply": 1216429,
+      "demand": 162594,
+      "unitProfit": 9,
+      "marginPct": 69.23076923076923,
+      "dailyVolumeEstimate": 162594,
+      "score": 360.76895905595876
     },
     {
       "id": 20722,
@@ -738,11 +724,25 @@
       "buy": 7,
       "sell": 17,
       "supply": 2235519,
-      "demand": 3629,
+      "demand": 3574,
       "unitProfit": 7,
       "marginPct": 100,
-      "dailyVolumeEstimate": 3629,
-      "score": 355.99066250361125
+      "dailyVolumeEstimate": 3574,
+      "score": 355.3276046137099
+    },
+    {
+      "id": 19794,
+      "name": "Spool of Cotton Thread",
+      "icon": "https://render.guildwars2.com/file/CA4D34A3DC110C25E39F290EA020070E0D006B08/65996.png",
+      "rarity": "Basic",
+      "buy": 21,
+      "sell": 42,
+      "supply": 121880,
+      "demand": 94251,
+      "unitProfit": 15,
+      "marginPct": 71.42857142857143,
+      "dailyVolumeEstimate": 94251,
+      "score": 355.3064696127197
     },
     {
       "id": 20696,
@@ -751,12 +751,12 @@
       "rarity": "Fine",
       "buy": 8,
       "sell": 19,
-      "supply": 3557,
+      "supply": 3558,
       "demand": 4344,
       "unitProfit": 8,
       "marginPct": 100,
-      "dailyVolumeEstimate": 3557,
-      "score": 355.12059437479064
+      "dailyVolumeEstimate": 3558,
+      "score": 355.1327988003846
     },
     {
       "id": 12441,
@@ -1242,7 +1242,7 @@
       "buy": 10,
       "sell": 18,
       "supply": 3649873,
-      "demand": 14466722,
+      "demand": 14466718,
       "unitProfit": 5,
       "marginPct": 50,
       "dailyVolumeEstimate": 3649873,
@@ -1325,12 +1325,12 @@
       "rarity": "Exotic",
       "buy": 2101,
       "sell": 4700,
-      "supply": 4061,
+      "supply": 4060,
       "demand": 7216,
       "unitProfit": 1894,
       "marginPct": 90.14754878629225,
-      "dailyVolumeEstimate": 4061,
-      "score": 325.3190579112939
+      "dailyVolumeEstimate": 4060,
+      "score": 325.30941847187677
     },
     {
       "id": 24721,
@@ -1353,12 +1353,12 @@
       "rarity": "Basic",
       "buy": 24,
       "sell": 46,
-      "supply": 157837,
+      "supply": 157567,
       "demand": 234715,
       "unitProfit": 15,
       "marginPct": 62.5,
-      "dailyVolumeEstimate": 157837,
-      "score": 324.88822307738354
+      "dailyVolumeEstimate": 157567,
+      "score": 324.841751411199
     },
     {
       "id": 75993,
@@ -1395,7 +1395,7 @@
       "rarity": "Exotic",
       "buy": 259,
       "sell": 578,
-      "supply": 9353,
+      "supply": 9352,
       "demand": 4128,
       "unitProfit": 232,
       "marginPct": 89.57528957528957,
