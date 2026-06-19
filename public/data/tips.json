@@ -1,40 +1,14 @@
 {
-  "generatedAt": "2026-06-19T22:28:48.529Z",
+  "generatedAt": "2026-06-19T22:37:53.635Z",
   "count": 100,
   "tips": [
-    {
-      "id": 19719,
-      "name": "Rawhide Leather Section",
-      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
-      "buy": 4,
-      "sell": 10,
-      "supply": 13331482,
-      "demand": 2425861,
-      "unitProfit": 4,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 2425861,
-      "score": 638.4866091525128
-    },
-    {
-      "id": 77667,
-      "name": "Glass of Buttered Spirits",
-      "icon": "https://render.guildwars2.com/file/0AD3511B0737F37DD61FA16B069DCA1E0CF0AA06/1322534.png",
-      "buy": 5,
-      "sell": 12,
-      "supply": 4652725,
-      "demand": 1970135,
-      "unitProfit": 5,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 1970135,
-      "score": 629.4496206877773
-    },
     {
       "id": 68636,
       "name": "Sweet Bean Bun",
       "icon": "https://render.guildwars2.com/file/D76D20C351D506FE800D70D93D43A87E0D18A40E/1341447.png",
       "buy": 3,
       "sell": 8,
-      "supply": 1095016,
+      "supply": 1095018,
       "demand": 1020737,
       "unitProfit": 3,
       "marginPct": 100,
@@ -94,17 +68,17 @@
       "score": 507.1019924205638
     },
     {
-      "id": 24279,
-      "name": "Small Venom Sac",
-      "icon": "https://render.guildwars2.com/file/0C04FDFF465A682BB080F272E9DB3DBC0637113D/66935.png",
-      "buy": 8,
-      "sell": 19,
-      "supply": 321823,
-      "demand": 106966,
-      "unitProfit": 8,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 106966,
-      "score": 502.92498157376525
+      "id": 77667,
+      "name": "Glass of Buttered Spirits",
+      "icon": "https://render.guildwars2.com/file/0AD3511B0737F37DD61FA16B069DCA1E0CF0AA06/1322534.png",
+      "buy": 5,
+      "sell": 11,
+      "supply": 4652726,
+      "demand": 1970134,
+      "unitProfit": 4,
+      "marginPct": 80,
+      "dailyVolumeEstimate": 1970134,
+      "score": 503.5596789151106
     },
     {
       "id": 12161,
@@ -120,17 +94,30 @@
       "score": 500.6842410294605
     },
     {
+      "id": 19719,
+      "name": "Rawhide Leather Section",
+      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
+      "buy": 4,
+      "sell": 9,
+      "supply": 13331652,
+      "demand": 2425793,
+      "unitProfit": 3,
+      "marginPct": 75,
+      "dailyVolumeEstimate": 2425793,
+      "score": 478.8640438145485
+    },
+    {
       "id": 12324,
       "name": "Bag of Starch",
       "icon": "https://render.guildwars2.com/file/13282DF437062E48247991635590CF53BB340B5E/63361.png",
       "buy": 6,
       "sell": 15,
-      "supply": 40859,
+      "supply": 40808,
       "demand": 151428,
       "unitProfit": 6,
       "marginPct": 100,
-      "dailyVolumeEstimate": 40859,
-      "score": 461.1298362296429
+      "dailyVolumeEstimate": 40808,
+      "score": 461.07559527785907
     },
     {
       "id": 24301,
@@ -144,6 +131,19 @@
       "marginPct": 100,
       "dailyVolumeEstimate": 40320,
       "score": 460.55312944964066
+    },
+    {
+      "id": 24279,
+      "name": "Small Venom Sac",
+      "icon": "https://render.guildwars2.com/file/0C04FDFF465A682BB080F272E9DB3DBC0637113D/66935.png",
+      "buy": 8,
+      "sell": 18,
+      "supply": 321858,
+      "demand": 106965,
+      "unitProfit": 7,
+      "marginPct": 87.5,
+      "dailyVolumeEstimate": 106965,
+      "score": 440.05900361846216
     },
     {
       "id": 38460,
@@ -185,19 +185,6 @@
       "score": 429.06355262615455
     },
     {
-      "id": 19758,
-      "name": "Green Wood Dowel",
-      "icon": "https://render.guildwars2.com/file/0C6871D2069E2C074A93E205C9C7097DBF0E9D13/65963.png",
-      "buy": 9,
-      "sell": 21,
-      "supply": 374912,
-      "demand": 17895,
-      "unitProfit": 9,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 17895,
-      "score": 425.27559710885737
-    },
-    {
       "id": 24316,
       "name": "Glacial Sliver",
       "icon": "https://render.guildwars2.com/file/6DD06745F5484B1F1CF0DD9BED26573504BF1575/66969.png",
@@ -217,7 +204,7 @@
       "buy": 79,
       "sell": 184,
       "supply": 17735,
-      "demand": 36139,
+      "demand": 36136,
       "unitProfit": 78,
       "marginPct": 98.73417721518987,
       "dailyVolumeEstimate": 17735,
@@ -289,30 +276,17 @@
       "score": 404.8077419067389
     },
     {
-      "id": 12135,
-      "name": "Potato",
-      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
-      "buy": 13,
-      "sell": 27,
-      "supply": 1216489,
-      "demand": 162344,
-      "unitProfit": 10,
-      "marginPct": 76.92307692307693,
-      "dailyVolumeEstimate": 162344,
-      "score": 400.8029936540408
-    },
-    {
       "id": 12992,
       "name": "Steel Plated Dowel",
       "icon": "https://render.guildwars2.com/file/D87B1BB6BE69A3B90FBFD0D8E9AC5F0861FB7DF8/63489.png",
       "buy": 272,
       "sell": 625,
       "supply": 45054,
-      "demand": 13547,
+      "demand": 13524,
       "unitProfit": 259,
       "marginPct": 95.22058823529412,
-      "dailyVolumeEstimate": 13547,
-      "score": 393.43958591356676
+      "dailyVolumeEstimate": 13524,
+      "score": 393.36932128994823
     },
     {
       "id": 12177,
@@ -339,19 +313,6 @@
       "marginPct": 98.05825242718447,
       "dailyVolumeEstimate": 9965,
       "score": 392.08797006440665
-    },
-    {
-      "id": 71307,
-      "name": "Jute Patch",
-      "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
-      "buy": 16,
-      "sell": 36,
-      "supply": 56339,
-      "demand": 29853,
-      "unitProfit": 14,
-      "marginPct": 87.5,
-      "dailyVolumeEstimate": 29853,
-      "score": 391.56272124217
     },
     {
       "id": 36074,
@@ -450,12 +411,12 @@
       "icon": "https://render.guildwars2.com/file/F7756273F47016E30DD3F647F9019AE3B6DCFECF/340479.png",
       "buy": 502,
       "sell": 1175,
-      "supply": 5772,
+      "supply": 5762,
       "demand": 9871,
       "unitProfit": 496,
       "marginPct": 98.80478087649402,
-      "dailyVolumeEstimate": 5772,
-      "score": 371.6444566771556
+      "dailyVolumeEstimate": 5762,
+      "score": 371.5700628112256
     },
     {
       "id": 24234,
@@ -469,6 +430,19 @@
       "marginPct": 80.43478260869566,
       "dailyVolumeEstimate": 39042,
       "score": 369.31977758218886
+    },
+    {
+      "id": 19720,
+      "name": "Bolt of Jute",
+      "icon": "https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png",
+      "buy": 16,
+      "sell": 32,
+      "supply": 244873,
+      "demand": 234432,
+      "unitProfit": 11,
+      "marginPct": 68.75,
+      "dailyVolumeEstimate": 234432,
+      "score": 369.1887887313817
     },
     {
       "id": 101427,
@@ -510,19 +484,6 @@
       "score": 367.06703921729337
     },
     {
-      "id": 19742,
-      "name": "Bolt of Cotton",
-      "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
-      "buy": 7,
-      "sell": 17,
-      "supply": 2235815,
-      "demand": 4657,
-      "unitProfit": 7,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 4657,
-      "score": 366.8199484198662
-    },
-    {
       "id": 9300,
       "name": "Large Miner's Bag",
       "icon": "https://render.guildwars2.com/file/EBC5CEC199D1E51B02756A1C796A65E9D24F04B5/63171.png",
@@ -542,7 +503,7 @@
       "buy": 175,
       "sell": 378,
       "supply": 24266,
-      "demand": 25846,
+      "demand": 25855,
       "unitProfit": 146,
       "marginPct": 83.42857142857143,
       "dailyVolumeEstimate": 24266,
@@ -575,6 +536,19 @@
       "score": 364.60144391540996
     },
     {
+      "id": 71307,
+      "name": "Jute Patch",
+      "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
+      "buy": 16,
+      "sell": 34,
+      "supply": 56430,
+      "demand": 29853,
+      "unitProfit": 13,
+      "marginPct": 81.25,
+      "dailyVolumeEstimate": 29853,
+      "score": 363.5939554391579
+    },
+    {
       "id": 20540,
       "name": "Wasabi Dye",
       "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
@@ -599,6 +573,19 @@
       "marginPct": 97.14285714285714,
       "dailyVolumeEstimate": 5455,
       "score": 363.0106522744182
+    },
+    {
+      "id": 12135,
+      "name": "Potato",
+      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
+      "buy": 13,
+      "sell": 26,
+      "supply": 1216491,
+      "demand": 162594,
+      "unitProfit": 9,
+      "marginPct": 69.23076923076923,
+      "dailyVolumeEstimate": 162594,
+      "score": 360.76895905595876
     },
     {
       "id": 20722,
@@ -827,7 +814,7 @@
       "icon": "https://render.guildwars2.com/file/11C41A3B69CA387A774794060824CBD923A4413A/65987.png",
       "buy": 5,
       "sell": 12,
-      "supply": 37459,
+      "supply": 37460,
       "demand": 2774,
       "unitProfit": 5,
       "marginPct": 100,
@@ -840,12 +827,12 @@
       "icon": "https://render.guildwars2.com/file/72553F1D20D469715EBE7A61BE015A4E790D0136/65682.png",
       "buy": 10,
       "sell": 20,
-      "supply": 79785,
+      "supply": 79752,
       "demand": 126210,
       "unitProfit": 7,
       "marginPct": 70,
-      "dailyVolumeEstimate": 79785,
-      "score": 343.1348684856448
+      "dailyVolumeEstimate": 79752,
+      "score": 343.1222919962911
     },
     {
       "id": 12923,
@@ -913,6 +900,19 @@
       "score": 339.1816923613249
     },
     {
+      "id": 19813,
+      "name": "Strong Cotton Insignia",
+      "icon": "https://render.guildwars2.com/file/CC09F313AC1E0A175F753E25B22BD927F4923154/340437.png",
+      "buy": 474,
+      "sell": 1024,
+      "supply": 14529,
+      "demand": 11053,
+      "unitProfit": 397,
+      "marginPct": 83.75527426160338,
+      "dailyVolumeEstimate": 11053,
+      "score": 338.66608137501373
+    },
+    {
       "id": 12439,
       "name": "Spicy Stuffed Mushroom",
       "icon": "https://render.guildwars2.com/file/2099926218302D773AEAED48367B4E194068A410/433632.png",
@@ -924,19 +924,6 @@
       "marginPct": 89.77272727272727,
       "dailyVolumeEstimate": 5880,
       "score": 338.39391269631926
-    },
-    {
-      "id": 19813,
-      "name": "Strong Cotton Insignia",
-      "icon": "https://render.guildwars2.com/file/CC09F313AC1E0A175F753E25B22BD927F4923154/340437.png",
-      "buy": 474,
-      "sell": 1023,
-      "supply": 14629,
-      "demand": 11053,
-      "unitProfit": 396,
-      "marginPct": 83.54430379746836,
-      "dailyVolumeEstimate": 11053,
-      "score": 337.8130181977467
     },
     {
       "id": 24874,
@@ -963,19 +950,6 @@
       "marginPct": 85,
       "dailyVolumeEstimate": 8935,
       "score": 335.847168609142
-    },
-    {
-      "id": 19720,
-      "name": "Bolt of Jute",
-      "icon": "https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png",
-      "buy": 16,
-      "sell": 31,
-      "supply": 244974,
-      "demand": 234432,
-      "unitProfit": 10,
-      "marginPct": 62.5,
-      "dailyVolumeEstimate": 234432,
-      "score": 335.62617157398336
     },
     {
       "id": 12471,
@@ -1061,7 +1035,7 @@
       "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
       "buy": 7,
       "sell": 16,
-      "supply": 11222,
+      "supply": 11223,
       "demand": 7088,
       "unitProfit": 6,
       "marginPct": 85.71428571428571,
@@ -1186,6 +1160,19 @@
       "score": 326.19743711193723
     },
     {
+      "id": 71931,
+      "name": "Karka Helm Skin",
+      "icon": "https://render.guildwars2.com/file/B9F4A85C1DD60E497A914542689DF90777189741/1010525.png",
+      "buy": 2101,
+      "sell": 4700,
+      "supply": 4063,
+      "demand": 7216,
+      "unitProfit": 1894,
+      "marginPct": 90.14754878629225,
+      "dailyVolumeEstimate": 4063,
+      "score": 325.3383296729407
+    },
+    {
       "id": 24721,
       "name": "Minor Rune of the Eagle",
       "icon": "https://render.guildwars2.com/file/A46D7A04B79BC40141929FF9B1C2FAFA2A7F4025/221071.png",
@@ -1205,7 +1192,7 @@
       "buy": 24,
       "sell": 46,
       "supply": 158103,
-      "demand": 234547,
+      "demand": 234715,
       "unitProfit": 15,
       "marginPct": 62.5,
       "dailyVolumeEstimate": 158103,
@@ -1218,11 +1205,11 @@
       "buy": 10,
       "sell": 22,
       "supply": 8757,
-      "demand": 4051,
+      "demand": 4050,
       "unitProfit": 9,
       "marginPct": 90,
-      "dailyVolumeEstimate": 4051,
-      "score": 324.6902493019419
+      "dailyVolumeEstimate": 4050,
+      "score": 324.68060188652294
     },
     {
       "id": 13146,
@@ -1230,7 +1217,7 @@
       "icon": "https://render.guildwars2.com/file/2F019DF07D7E317C5C5D06D5DD716770F8E6300D/219585.png",
       "buy": 9,
       "sell": 21,
-      "supply": 3559,
+      "supply": 3615,
       "demand": 1751,
       "unitProfit": 9,
       "marginPct": 100,
@@ -1264,6 +1251,19 @@
       "score": 323.2956757116758
     },
     {
+      "id": 19825,
+      "name": "Hunter's Iron Plated Inscription",
+      "icon": "https://render.guildwars2.com/file/6E7A5B712373C490B09E202F7643ACA3EFE22E24/340448.png",
+      "buy": 310,
+      "sell": 710,
+      "supply": 5541,
+      "demand": 2619,
+      "unitProfit": 293,
+      "marginPct": 94.51612903225806,
+      "dailyVolumeEstimate": 2619,
+      "score": 323.0846059215114
+    },
+    {
       "id": 8844,
       "name": "Potion of Ice Brood Slaying",
       "icon": "https://render.guildwars2.com/file/EE980B9AA5BEB900A49622B9B959E9A8A0249DFF/63139.png",
@@ -1283,11 +1283,11 @@
       "buy": 146,
       "sell": 292,
       "supply": 42131,
-      "demand": 41772,
+      "demand": 41769,
       "unitProfit": 102,
       "marginPct": 69.86301369863014,
-      "dailyVolumeEstimate": 41772,
-      "score": 322.82969721313714
+      "dailyVolumeEstimate": 41769,
+      "score": 322.8275181349605
     },
     {
       "id": 12301,
@@ -1295,12 +1295,12 @@
       "icon": "https://render.guildwars2.com/file/901F0C3969D10EF1BA5AA8309F68F3D3339E547B/63303.png",
       "buy": 119,
       "sell": 275,
-      "supply": 2282,
+      "supply": 2284,
       "demand": 18917,
       "unitProfit": 114,
       "marginPct": 95.7983193277311,
-      "dailyVolumeEstimate": 2282,
-      "score": 321.73922177301415
+      "dailyVolumeEstimate": 2284,
+      "score": 321.77565319518413
     }
   ]
 }
