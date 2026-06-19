@@ -5,6 +5,13 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Kalkulačka hromadného flipu (2026-06-20)
+Nová záložka **Kalkulačka**: zadáš nákupnú a predajnú cenu a buď množstvo alebo
+rozpočet — appka spočíta zisk na kus po dani, počet kusov, investíciu, celkový
+zisk, ROI a **break-even cenu** (od ktorej už nie si v strate, dôležité pri
+lacných položkách). Z ktoréhokoľvek tipu otvoríš kalkulačku jedným klikom
+(tlačidlo 🧮), takže nemusíš nič prepisovať.
+
 ### Zmenené — Krajší a prehľadnejší dashboard (2026-06-20)
 Dashboard dostal nový vzhľad podľa tvojich predstáv: **farebné mince**
 (zlato/striebro/meď), položky **farebne podľa vzácnosti** s reálnymi ikonami,

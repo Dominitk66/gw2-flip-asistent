@@ -6,9 +6,16 @@ import TipsTable, { type ScoredTip, type SortKey } from './TipsTable.tsx'
 interface Props {
   tips: TipRow[]
   budgetCopper: number
+  onCalc?: (t: ScoredTip) => void
+  onJournal?: (t: ScoredTip) => void
 }
 
-export default function TipsView({ tips, budgetCopper }: Props) {
+export default function TipsView({
+  tips,
+  budgetCopper,
+  onCalc,
+  onJournal,
+}: Props) {
   const [search, setSearch] = useState('')
   const [minMargin, setMinMargin] = useState('')
   const [minVolume, setMinVolume] = useState('')
@@ -85,7 +92,14 @@ export default function TipsView({ tips, budgetCopper }: Props) {
         </label>
         <span className="count">{rows.length} položiek</span>
       </div>
-      <TipsTable rows={rows} sortKey={sortKey} sortDir={sortDir} onSort={onSort} />
+      <TipsTable
+        rows={rows}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onSort={onSort}
+        onCalc={onCalc}
+        onJournal={onJournal}
+      />
     </>
   )
 }

@@ -24,9 +24,20 @@ interface Props {
   sortKey: SortKey
   sortDir: 'asc' | 'desc'
   onSort: (key: SortKey) => void
+  /** Otvorí položku v kalkulačke (tlačidlo na riadku). */
+  onCalc?: (t: ScoredTip) => void
+  /** Pridá položku do denníka (tlačidlo na riadku). */
+  onJournal?: (t: ScoredTip) => void
 }
 
-export default function TipsTable({ rows, sortKey, sortDir, onSort }: Props) {
+export default function TipsTable({
+  rows,
+  sortKey,
+  sortDir,
+  onSort,
+  onCalc,
+  onJournal,
+}: Props) {
   const arrow = (key: SortKey) =>
     sortKey === key ? (sortDir === 'desc' ? ' ▾' : ' ▴') : ''
 
@@ -50,6 +61,7 @@ export default function TipsTable({ rows, sortKey, sortDir, onSort }: Props) {
             <Th k="dailyVolumeEstimate" label="Objem/deň" />
             <th className="num">Kúp</th>
             <Th k="profitPerGoldPerDay" label="Zisk/deň" />
+            <th className="num">Akcie</th>
           </tr>
         </thead>
         <tbody>
@@ -80,6 +92,26 @@ export default function TipsTable({ rows, sortKey, sortDir, onSort }: Props) {
               </td>
               <td className="num profit">
                 {t.units > 0 ? <Coins value={t.expectedDailyProfit} /> : '—'}
+              </td>
+              <td className="num actions">
+                {onCalc && (
+                  <button
+                    className="row-act"
+                    title="Otvoriť v kalkulačke"
+                    onClick={() => onCalc(t)}
+                  >
+                    🧮
+                  </button>
+                )}
+                {onJournal && (
+                  <button
+                    className="row-act"
+                    title="Pridať do denníka"
+                    onClick={() => onJournal(t)}
+                  >
+                    📒
+                  </button>
+                )}
               </td>
             </tr>
           ))}

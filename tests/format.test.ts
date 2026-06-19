@@ -4,6 +4,7 @@ import {
   goldToCopper,
   splitCopper,
   formatCompact,
+  parseCoins,
 } from '../src/lib/format'
 
 describe('splitCopper', () => {
@@ -47,5 +48,22 @@ describe('formatCompact', () => {
     expect(formatCompact(2_400_000)).toBe('2,4M')
     expect(formatCompact(18_000)).toBe('18k')
     expect(formatCompact(540)).toBe('540')
+  })
+})
+
+describe('parseCoins', () => {
+  it('rozparsuje mince s jednotkami', () => {
+    expect(parseCoins('1g 50s 20c')).toBe(15_020)
+    expect(parseCoins('2s23c')).toBe(223)
+    expect(parseCoins('4c')).toBe(4)
+  })
+
+  it('holé číslo = medené', () => {
+    expect(parseCoins('250')).toBe(250)
+  })
+
+  it('prázdne/neplatné → 0', () => {
+    expect(parseCoins('')).toBe(0)
+    expect(parseCoins('abc')).toBe(0)
   })
 })

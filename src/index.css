@@ -288,3 +288,93 @@ table.tips .item a:hover {
   font-size: 0.8rem;
   line-height: 1.5;
 }
+
+/* Akcie na riadku tabuľky */
+table.tips td.actions {
+  white-space: nowrap;
+}
+
+.row-act {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 0.95rem;
+  margin-left: 4px;
+}
+
+.row-act:hover {
+  background: rgba(200, 162, 74, 0.12);
+}
+
+/* Kalkulačka */
+.calc-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.calc-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.calc-form input {
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  background: #23272e;
+  color: var(--fg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+}
+
+.calc-mode {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.calc-mode .radio {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--fg);
+  font-size: 0.9rem;
+}
+
+.calc-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.mcard {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.85rem 1rem;
+}
+
+.mcard.ok {
+  border-color: rgba(91, 187, 123, 0.4);
+}
+
+.ml {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.3rem;
+}
+
+.mv {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.mv.profit {
+  color: var(--green);
+}

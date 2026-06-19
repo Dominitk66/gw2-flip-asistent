@@ -2,6 +2,8 @@ import { useCallback, useEffect, useState } from 'react'
 import type { TipRow } from './lib/tips.ts'
 import { goldToCopper } from './lib/format.ts'
 import TipsView from './components/TipsView.tsx'
+import Calculator, { type CalcPrefill } from './components/Calculator.tsx'
+import type { ScoredTip } from './components/TipsTable.tsx'
 
 interface TipsFile {
   generatedAt: string
@@ -27,6 +29,12 @@ export default function App() {
   const [budgetGold, setBudgetGold] = useState<string>(
     () => localStorage.getItem(BUDGET_KEY) ?? '100',
   )
+  const [calcPrefill, setCalcPrefill] = useState<CalcPrefill | null>(null)
+
+  function openCalc(t: ScoredTip) {
+    setCalcPrefill({ name: t.name, buy: t.buy, sell: t.sell })
+    setTab('kalkulacka')
+  }
 
   const load = useCallback(async () => {
     setLoading(true)
@@ -101,7 +109,11 @@ export default function App() {
           {error && <p className="error">Nepodarilo sa načítať tipy: {error}</p>}
           {data && !loading && !error && (
             data.tips.length > 0 ? (
-              <TipsView tips={data.tips} budgetCopper={budgetCopper} />
+              <TipsView
+                tips={data.tips}
+                budgetCopper={budgetCopper}
+                onCalc={openCalc}
+              />
             ) : (
               <p className="info">Zatiaľ žiadne tipy. Skús neskôr.</p>
             )
@@ -109,9 +121,7 @@ export default function App() {
         </>
       )}
 
-      {tab === 'kalkulacka' && (
-        <p className="info">Kalkulačka — pridávam v ďalšom kroku. 🛠️</p>
-      )}
+      {tab === 'kalkulacka' && <Calculator prefill={calcPrefill} />}
       {tab === 'dennik' && (
         <p className="info">Môj denník — pridávam v ďalšom kroku. 🛠️</p>
       )}

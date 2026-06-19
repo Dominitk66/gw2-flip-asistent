@@ -46,3 +46,24 @@ export function formatCompact(n: number): string {
   if (n >= 1_000) return `${Math.round(n / 1_000)}k`
   return String(Math.round(n))
 }
+
+/**
+ * Parsuje zadané mince na medené. Akceptuje „1g 50s 20c", „2s23c", „4c" aj
+ * holé číslo (= medené). Neplatné → 0.
+ */
+export function parseCoins(input: string): number {
+  const str = input.trim().toLowerCase()
+  if (!str) return 0
+  let total = 0
+  let found = false
+  for (const match of str.matchAll(/(\d+)\s*([gsc])/g)) {
+    const n = Number(match[1])
+    const unit = match[2]
+    if (!Number.isFinite(n)) continue
+    found = true
+    total += unit === 'g' ? n * COPPER_PER_GOLD : unit === 's' ? n * 100 : n
+  }
+  if (found) return total
+  const plain = Number(str.replace(/[^\d]/g, ''))
+  return Number.isFinite(plain) ? plain : 0
+}
