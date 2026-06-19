@@ -5,6 +5,14 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Mozog appky / scoring engine (2026-06-19)
+Pridali sme „mozog" aplikácie — výpočty, ktoré rozhodujú, čo sa oplatí kúpiť a
+predať. Počíta čistý zisk po 15 % dani, maržu, koľko kusov kúpiť (nikdy nie viac,
+než sa za deň predá) a hlavnú metriku **zisk na vložený kapitál za deň**. Tá
+odmeňuje nielen veľký rozdiel ceny, ale aj rýchlosť predaja (likviditu) — presne
+to, čo si si želal („výhodné, ale efektívne"). Celé je to pokryté testami, aby
+sa peňažné výpočty nikdy nepokazili.
+
 ### Pridané — Kostra projektu (2026-06-19)
 Založili sme základ aplikácie. Pripravili sme prostredie na vývoj: TypeScript
 v prísnom režime, React + Vite (na zostavenie stránky), Vitest (na testy) a
