@@ -1,0 +1,46 @@
+# Automatický zber cien z GW2 — beží na pozadí v GitHub Actions (zadarmo).
+# Každú hodinu stiahne ceny, prepočíta tipy a commitne public/data/tips.json.
+name: Zber cien (collect)
+
+on:
+  schedule:
+    # Každú hodinu v minúte 17 (mimo špičky). Cron môže mierne kolísať.
+    - cron: '17 * * * *'
+  workflow_dispatch: {} # umožní spustiť ručne z GitHub UI
+
+# Potrebné, aby workflow mohol commitnúť aktualizované dáta.
+permissions:
+  contents: write
+
+# Ak beží starší beh, nový ho nahradí (netreba duplikáty).
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      # POZN.: zámerne `npm install`, NIE `npm ci` — lock súbor je z Windowsu
+      # a `npm ci` by v Linux CI mohol padnúť na EBADPLATFORM (viď CLAUDE.md).
+      - run: npm install
+
+      - run: npm run collect
+
+      - name: Commit aktualizovaných tipov
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/tips.json
+          if git diff --staged --quiet; then
+            echo "Žiadna zmena v dátach."
+          else
+            git commit -m "Dáta: aktualizácia tipov ($(date -u +%FT%TZ))"
+            git push
+          fi

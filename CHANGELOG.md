@@ -5,6 +5,15 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Zberač príležitostí + automatika na pozadí (2026-06-20)
+Appka teraz prejde celý Trading Post (~28 000 položiek) a vyberie 100 najlepších
+flip príležitostí do zoznamu. Ten sa bude automaticky obnovovať každú hodinu cez
+GitHub Actions (zadarmo, na pozadí — aj keď máš stránku zavretú). Pridali sme
+dôležité bezpečné filtre: ignorujeme manipulované a „mŕtve" listingy (napr. 2
+kusy za 400 zlatých s falošnou maržou) a vyžadujeme dostatok ponuky aj dopytu.
+Na reálnych dátach to našlo skutočné perly — lacné položky s ~100 % maržou a
+obrovským denným objemom (presne tie „časté malé flipy").
+
 ### Pridané — Napojenie na ceny z GW2 (2026-06-20)
 Appka sa teraz vie napojiť na oficiálne Guild Wars 2 API a stiahnuť aktuálne
 ceny položiek z Trading Post. Otestované naživo na reálnych dátach — a hneď to
