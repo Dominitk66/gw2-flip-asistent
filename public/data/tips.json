@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:32:26.740Z",
+  "generatedAt": "2026-06-19T23:35:01.810Z",
   "count": 100,
   "tips": [
     {
@@ -10,11 +10,11 @@
       "buy": 5,
       "sell": 12,
       "supply": 5168310,
-      "demand": 1384341,
+      "demand": 1384339,
       "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 1384341,
-      "score": 614.1243395297315
+      "dailyVolumeEstimate": 1384339,
+      "score": 614.1242767858726
     },
     {
       "id": 36077,
@@ -73,32 +73,18 @@
       "score": 503.5173994635263
     },
     {
-      "id": 19719,
-      "name": "Rawhide Leather Section",
-      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
-      "rarity": "Basic",
-      "buy": 4,
-      "sell": 9,
-      "supply": 13328373,
-      "demand": 2424649,
-      "unitProfit": 3,
-      "marginPct": 75,
-      "dailyVolumeEstimate": 2424649,
-      "score": 478.84867925524696
-    },
-    {
       "id": 8594,
       "name": "Jug of Friesson's Ale",
       "icon": "https://render.guildwars2.com/file/CDDAD80F43DD91C35B99C513CB47DA07A9D7F4CA/63100.png",
       "rarity": "Basic",
       "buy": 6,
       "sell": 13,
-      "supply": 515844,
-      "demand": 575374,
+      "supply": 515856,
+      "demand": 575357,
       "unitProfit": 5,
       "marginPct": 83.33333333333334,
-      "dailyVolumeEstimate": 515844,
-      "score": 476.0432687794782
+      "dailyVolumeEstimate": 515856,
+      "score": 476.0441106785574
     },
     {
       "id": 75689,
@@ -318,11 +304,11 @@
       "buy": 3,
       "sell": 7,
       "supply": 1095228,
-      "demand": 1020676,
+      "demand": 1020675,
       "unitProfit": 2,
       "marginPct": 66.66666666666666,
-      "dailyVolumeEstimate": 1020676,
-      "score": 400.59255523079395
+      "dailyVolumeEstimate": 1020675,
+      "score": 400.59252686434735
     },
     {
       "id": 12992,
@@ -709,7 +695,7 @@
       "rarity": "Basic",
       "buy": 21,
       "sell": 42,
-      "supply": 121880,
+      "supply": 121920,
       "demand": 94251,
       "unitProfit": 15,
       "marginPct": 71.42857142857143,
@@ -724,7 +710,7 @@
       "buy": 8,
       "sell": 19,
       "supply": 3558,
-      "demand": 4343,
+      "demand": 4342,
       "unitProfit": 8,
       "marginPct": 100,
       "dailyVolumeEstimate": 3558,
@@ -743,6 +729,20 @@
       "marginPct": 95.80838323353294,
       "dailyVolumeEstimate": 4987,
       "score": 354.29235399343764
+    },
+    {
+      "id": 19742,
+      "name": "Bolt of Cotton",
+      "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
+      "rarity": "Basic",
+      "buy": 6,
+      "sell": 15,
+      "supply": 2236301,
+      "demand": 3451,
+      "unitProfit": 6,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 3451,
+      "score": 353.8070787043172
     },
     {
       "id": 71225,
@@ -1144,11 +1144,11 @@
       "buy": 4,
       "sell": 9,
       "supply": 220005,
-      "demand": 24755,
+      "demand": 24754,
       "unitProfit": 3,
       "marginPct": 75,
-      "dailyVolumeEstimate": 24755,
-      "score": 329.5260355515582
+      "dailyVolumeEstimate": 24754,
+      "score": 329.5247198000627
     },
     {
       "id": 9357,
@@ -1158,7 +1158,7 @@
       "buy": 178,
       "sell": 386,
       "supply": 7904,
-      "demand": 21895,
+      "demand": 21894,
       "unitProfit": 150,
       "marginPct": 84.26966292134831,
       "dailyVolumeEstimate": 7904,
@@ -1241,7 +1241,7 @@
       "rarity": "Fine",
       "buy": 113,
       "sell": 234,
-      "supply": 24944,
+      "supply": 24964,
       "demand": 19803,
       "unitProfit": 86,
       "marginPct": 76.10619469026548,
@@ -1354,11 +1354,11 @@
       "buy": 259,
       "sell": 578,
       "supply": 9353,
-      "demand": 4128,
+      "demand": 4127,
       "unitProfit": 232,
       "marginPct": 89.57528957528957,
-      "dailyVolumeEstimate": 4128,
-      "score": 323.8903524428305
+      "dailyVolumeEstimate": 4127,
+      "score": 323.88092963692816
     },
     {
       "id": 8835,
