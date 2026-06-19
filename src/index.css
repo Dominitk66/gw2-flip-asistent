@@ -378,3 +378,35 @@ table.tips td.actions {
 .mv.profit {
   color: var(--green);
 }
+
+/* Denník */
+.add-btn {
+  align-self: end;
+  background: var(--accent);
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  height: 38px;
+}
+
+.close-inline {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.close-inline input {
+  width: 84px;
+  padding: 3px 6px;
+  background: #23272e;
+  color: var(--fg);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 5px;
+  font-size: 0.85rem;
+  text-align: right;
+}

@@ -5,6 +5,13 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Denník obchodov (2026-06-20)
+Nová záložka **Môj denník**: zapíšeš si nákupy a predaje a appka spočíta, či
+reálne zarábaš — hore súhrn (viazaný kapitál, **realizovaný zisk po dani**, ROI,
+otvorené pozície), dole zoznam obchodov. Otvorený obchod (kúpené, nepredané)
+zatvoríš zadaním predajnej ceny. Obchod pridáš aj jedným klikom z Tipov
+(tlačidlo 📒). Dáta sú uložené súkromne v tvojom prehliadači.
+
 ### Pridané — Kalkulačka hromadného flipu (2026-06-20)
 Nová záložka **Kalkulačka**: zadáš nákupnú a predajnú cenu a buď množstvo alebo
 rozpočet — appka spočíta zisk na kus po dani, počet kusov, investíciu, celkový
