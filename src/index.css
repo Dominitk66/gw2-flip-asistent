@@ -1,0 +1,42 @@
+:root {
+  --bg: #14161a;
+  --fg: #e8eaed;
+  --muted: #9aa0a6;
+  --accent: #c8a24a; /* GW2-zlatá */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.app {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 {
+  color: var(--accent);
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.note {
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  background: rgba(200, 162, 74, 0.08);
+  border: 1px solid rgba(200, 162, 74, 0.25);
+  border-radius: 8px;
+}

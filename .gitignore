@@ -1,0 +1,22 @@
+# Závislosti
+node_modules/
+
+# Build výstup
+dist/
+
+# Tajomstvá — NIKDY necommitovať (pravidlo CLAUDE.md)
+.env
+.env.*
+.dev.vars
+*.local
+
+# Logy a systémové
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor / nástroje
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.claude/
