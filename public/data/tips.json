@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-19T23:16:56.912Z",
+  "generatedAt": "2026-06-19T23:18:27.353Z",
   "count": 100,
   "tips": [
     {
-      "id": 19719,
-      "name": "Rawhide Leather Section",
-      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
+      "id": 77648,
+      "name": "Cup of Spiced Apple Cider",
+      "icon": "https://render.guildwars2.com/file/36E9EEE30906BD0AB100092D2120C6326CABF8B5/1322536.png",
       "rarity": "Basic",
-      "buy": 4,
-      "sell": 10,
-      "supply": 13329059,
-      "demand": 2425332,
-      "unitProfit": 4,
+      "buy": 5,
+      "sell": 12,
+      "supply": 5168310,
+      "demand": 1384517,
+      "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 2425332,
-      "score": 638.4771375983148
+      "dailyVolumeEstimate": 1384517,
+      "score": 614.1298606343679
     },
     {
       "id": 8594,
@@ -23,12 +23,12 @@
       "rarity": "Basic",
       "buy": 6,
       "sell": 15,
-      "supply": 515432,
-      "demand": 570713,
+      "supply": 515453,
+      "demand": 570699,
       "unitProfit": 6,
       "marginPct": 100,
-      "dailyVolumeEstimate": 515432,
-      "score": 571.2172220305508
+      "dailyVolumeEstimate": 515453,
+      "score": 571.2189914163557
     },
     {
       "id": 36077,
@@ -93,7 +93,7 @@
       "rarity": "Basic",
       "buy": 5,
       "sell": 11,
-      "supply": 4652789,
+      "supply": 4652914,
       "demand": 1967917,
       "unitProfit": 4,
       "marginPct": 80,
@@ -115,6 +115,20 @@
       "score": 502.8920824751168
     },
     {
+      "id": 19719,
+      "name": "Rawhide Leather Section",
+      "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
+      "rarity": "Basic",
+      "buy": 4,
+      "sell": 9,
+      "supply": 13329101,
+      "demand": 2425314,
+      "unitProfit": 3,
+      "marginPct": 75,
+      "dailyVolumeEstimate": 2425314,
+      "score": 478.85761145884874
+    },
+    {
       "id": 75689,
       "name": "Krytan Lumber Core",
       "icon": "https://render.guildwars2.com/file/BDEAEB0F2A28614313386FD41E07F1D10E4B5775/455860.png",
@@ -122,7 +136,7 @@
       "buy": 3,
       "sell": 8,
       "supply": 47620,
-      "demand": 47818,
+      "demand": 47817,
       "unitProfit": 3,
       "marginPct": 100,
       "dailyVolumeEstimate": 47620,
@@ -527,12 +541,12 @@
       "rarity": "Fine",
       "buy": 175,
       "sell": 380,
-      "supply": 24247,
+      "supply": 24254,
       "demand": 25855,
       "unitProfit": 148,
       "marginPct": 84.57142857142857,
-      "dailyVolumeEstimate": 24247,
-      "score": 370.81830666126615
+      "dailyVolumeEstimate": 24254,
+      "score": 370.8289081636504
     },
     {
       "id": 24234,
@@ -1157,7 +1171,7 @@
       "rarity": "Fine",
       "buy": 7,
       "sell": 16,
-      "supply": 11223,
+      "supply": 11224,
       "demand": 7088,
       "unitProfit": 6,
       "marginPct": 85.71428571428571,
@@ -1387,20 +1401,6 @@
       "marginPct": 89.57528957528957,
       "dailyVolumeEstimate": 4128,
       "score": 323.8903524428305
-    },
-    {
-      "id": 8835,
-      "name": "Potion of Centaur Slaying",
-      "icon": "https://render.guildwars2.com/file/F6765C030380F669001041EB967EF453F4383841/222770.png",
-      "rarity": "Fine",
-      "buy": 381,
-      "sell": 799,
-      "supply": 13595,
-      "demand": 18937,
-      "unitProfit": 298,
-      "marginPct": 78.21522309711287,
-      "dailyVolumeEstimate": 13595,
-      "score": 323.2956757116758
     }
   ]
 }
