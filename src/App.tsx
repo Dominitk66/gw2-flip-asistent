@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import type { TipRow } from './lib/tips.ts'
 import { goldToCopper } from './lib/format.ts'
-import TipsTable from './components/TipsTable.tsx'
+import TipsView from './components/TipsView.tsx'
 
 interface TipsFile {
   generatedAt: string
@@ -9,9 +9,18 @@ interface TipsFile {
   tips: TipRow[]
 }
 
+type Tab = 'tipy' | 'kalkulacka' | 'dennik'
+
 const BUDGET_KEY = 'gw2flip.budgetGold'
 
+const TABS: { id: Tab; label: string }[] = [
+  { id: 'tipy', label: 'Tipy' },
+  { id: 'kalkulacka', label: 'Kalkulačka' },
+  { id: 'dennik', label: 'Môj denník' },
+]
+
 export default function App() {
+  const [tab, setTab] = useState<Tab>('tipy')
   const [data, setData] = useState<TipsFile | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -23,7 +32,6 @@ export default function App() {
     setLoading(true)
     setError(null)
     try {
-      // cache-bust, aby refresh ťahal čerstvé dáta
       const res = await fetch(
         `${import.meta.env.BASE_URL}data/tips.json?t=${Date.now()}`,
       )
@@ -46,9 +54,7 @@ export default function App() {
   }
 
   const budgetCopper = goldToCopper(budgetGold)
-  const updated = data
-    ? new Date(data.generatedAt).toLocaleString('sk-SK')
-    : null
+  const updated = data ? new Date(data.generatedAt).toLocaleString('sk-SK') : null
 
   return (
     <main className="app">
@@ -60,38 +66,59 @@ export default function App() {
         </p>
       </header>
 
-      <section className="controls">
-        <label className="budget">
-          Môj rozpočet (zlato)
-          <input
-            type="number"
-            min="0"
-            inputMode="decimal"
-            value={budgetGold}
-            onChange={(e) => onBudgetChange(e.target.value)}
-          />
-        </label>
-        <button onClick={() => void load()} disabled={loading}>
-          {loading ? 'Načítavam…' : '↻ Obnoviť'}
-        </button>
-        {updated && <span className="updated">Dáta z: {updated}</span>}
-      </section>
+      <nav className="tabs">
+        {TABS.map((t) => (
+          <button
+            key={t.id}
+            className={tab === t.id ? 'tab on' : 'tab'}
+            onClick={() => setTab(t.id)}
+          >
+            {t.label}
+          </button>
+        ))}
+      </nav>
 
-      {loading && <p className="info">Načítavam tipy…</p>}
-      {error && (
-        <p className="error">Nepodarilo sa načítať tipy: {error}</p>
+      {tab === 'tipy' && (
+        <>
+          <section className="controls">
+            <label className="budget">
+              Môj rozpočet (zlato)
+              <input
+                type="number"
+                min="0"
+                inputMode="decimal"
+                value={budgetGold}
+                onChange={(e) => onBudgetChange(e.target.value)}
+              />
+            </label>
+            <button onClick={() => void load()} disabled={loading}>
+              {loading ? 'Načítavam…' : '↻ Obnoviť'}
+            </button>
+            {updated && <span className="updated">Dáta z: {updated}</span>}
+          </section>
+
+          {loading && <p className="info">Načítavam tipy…</p>}
+          {error && <p className="error">Nepodarilo sa načítať tipy: {error}</p>}
+          {data && !loading && !error && (
+            data.tips.length > 0 ? (
+              <TipsView tips={data.tips} budgetCopper={budgetCopper} />
+            ) : (
+              <p className="info">Zatiaľ žiadne tipy. Skús neskôr.</p>
+            )
+          )}
+        </>
       )}
-      {data && !loading && !error && (
-        data.tips.length > 0 ? (
-          <TipsTable tips={data.tips} budgetCopper={budgetCopper} />
-        ) : (
-          <p className="info">Zatiaľ žiadne tipy. Skús neskôr.</p>
-        )
+
+      {tab === 'kalkulacka' && (
+        <p className="info">Kalkulačka — pridávam v ďalšom kroku. 🛠️</p>
+      )}
+      {tab === 'dennik' && (
+        <p className="info">Môj denník — pridávam v ďalšom kroku. 🛠️</p>
       )}
 
       <footer className="foot">
         <p>
-          * „Zisk/deň" je odhad pri tvojom rozpočte. Objem je zatiaľ približný
+          „Zisk/deň" je odhad pri tvojom rozpočte. Objem je zatiaľ približný
           (presnejší pribudne, ako sa nazbiera história). Nákup a predaj kliká
           v hre vždy hráč — appka len radí.
         </p>

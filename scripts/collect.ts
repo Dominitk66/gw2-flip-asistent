@@ -27,7 +27,12 @@ async function main(): Promise<void> {
   const metaById = new Map(metas.map((m) => [m.id, m]))
   const tips = top.map((t) => {
     const m = metaById.get(t.id)
-    return { ...t, name: m?.name ?? `#${t.id}`, icon: m?.icon ?? '' }
+    return {
+      ...t,
+      name: m?.name ?? `#${t.id}`,
+      icon: m?.icon ?? '',
+      rarity: m?.rarity ?? '',
+    }
   })
 
   const payload = {

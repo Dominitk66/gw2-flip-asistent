@@ -5,6 +5,13 @@ programátorov.
 
 ## [Unreleased]
 
+### Zmenené — Krajší a prehľadnejší dashboard (2026-06-20)
+Dashboard dostal nový vzhľad podľa tvojich predstáv: **farebné mince**
+(zlato/striebro/meď), položky **farebne podľa vzácnosti** s reálnymi ikonami,
+**vyhľadávanie**, **filtre** (marža, objem) a **klikateľné zoradenie** stĺpcov.
+Appka je rozdelená na tri záložky — **Tipy · Kalkulačka · Môj denník**
+(kalkulačka a denník pribudnú vzápätí).
+
 ### Pridané — Dashboard + živá webstránka (2026-06-20)
 Appka má konečne tvár! Pridali sme prehľadnú stránku, kde vidíš rebríček
 najlepších tipov zoradený podľa zisku na vložený kapitál za deň. Zadáš svoj

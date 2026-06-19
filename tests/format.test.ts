@@ -1,5 +1,21 @@
 import { describe, it, expect } from 'vitest'
-import { formatCopper, goldToCopper } from '../src/lib/format'
+import {
+  formatCopper,
+  goldToCopper,
+  splitCopper,
+  formatCompact,
+} from '../src/lib/format'
+
+describe('splitCopper', () => {
+  it('rozloží medené na g/s/c', () => {
+    expect(splitCopper(12_345)).toEqual({ g: 1, s: 23, c: 45, negative: false })
+    expect(splitCopper(905)).toEqual({ g: 0, s: 9, c: 5, negative: false })
+  })
+
+  it('označí záporné', () => {
+    expect(splitCopper(-250)).toEqual({ g: 0, s: 2, c: 50, negative: true })
+  })
+})
 
 describe('formatCopper', () => {
   it('rozloží medené na zlaté/strieborné/medené', () => {
@@ -23,5 +39,13 @@ describe('goldToCopper', () => {
   it('neplatný alebo záporný vstup → 0', () => {
     expect(goldToCopper('abc')).toBe(0)
     expect(goldToCopper(-5)).toBe(0)
+  })
+})
+
+describe('formatCompact', () => {
+  it('skráti veľké čísla', () => {
+    expect(formatCompact(2_400_000)).toBe('2,4M')
+    expect(formatCompact(18_000)).toBe('18k')
+    expect(formatCompact(540)).toBe('540')
   })
 })

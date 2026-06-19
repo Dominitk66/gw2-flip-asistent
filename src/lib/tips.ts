@@ -12,6 +12,8 @@ export interface TipRow {
   id: number
   name: string
   icon: string
+  /** Vzácnosť (Basic, Fine, Rare…) — pre farbu názvu. Dopĺňa zberač. */
+  rarity: string
   /** Najvyšší existujúci buy order (sem mieri tvoj nákup). */
   buy: number
   /** Najnižší existujúci sell order (tesne pod tým predávaš). */
@@ -98,6 +100,7 @@ export function buildTips(
       id: p.id,
       name: `#${p.id}`,
       icon: '',
+      rarity: '',
       buy,
       sell,
       supply: p.sells.quantity,
