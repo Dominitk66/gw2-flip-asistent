@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:37:53.635Z",
+  "generatedAt": "2026-06-19T22:40:11.530Z",
   "count": 100,
   "tips": [
     {
@@ -42,19 +42,6 @@
       "score": 536.2864281534902
     },
     {
-      "id": 101213,
-      "name": "Rift Essence Coffer",
-      "icon": "https://render.guildwars2.com/file/DC53E3DCA0B1030DD897A0AB0F0B606DCD994451/3187524.png",
-      "buy": 2,
-      "sell": 6,
-      "supply": 363739,
-      "demand": 189316,
-      "unitProfit": 2,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 189316,
-      "score": 527.7189613830138
-    },
-    {
       "id": 43909,
       "name": "Lightning Catcher Skin",
       "icon": "https://render.guildwars2.com/file/0CFBB03794F5D8DE9099267EB6F9E3BD0EDA229A/603282.png",
@@ -86,7 +73,7 @@
       "icon": "https://render.guildwars2.com/file/CE0105F7035E55544A75D71FD0EC1A0095E7062C/63261.png",
       "buy": 7,
       "sell": 17,
-      "supply": 262006,
+      "supply": 262112,
       "demand": 101587,
       "unitProfit": 7,
       "marginPct": 100,
@@ -99,7 +86,7 @@
       "icon": "https://render.guildwars2.com/file/0CB8030AD26C3C7563B10E5EC397490F991ED795/65940.png",
       "buy": 4,
       "sell": 9,
-      "supply": 13331652,
+      "supply": 13331646,
       "demand": 2425793,
       "unitProfit": 3,
       "marginPct": 75,
@@ -112,12 +99,12 @@
       "icon": "https://render.guildwars2.com/file/13282DF437062E48247991635590CF53BB340B5E/63361.png",
       "buy": 6,
       "sell": 15,
-      "supply": 40808,
+      "supply": 40868,
       "demand": 151428,
       "unitProfit": 6,
       "marginPct": 100,
-      "dailyVolumeEstimate": 40808,
-      "score": 461.07559527785907
+      "dailyVolumeEstimate": 40868,
+      "score": 461.13940113402913
     },
     {
       "id": 24301,
@@ -139,11 +126,11 @@
       "buy": 8,
       "sell": 18,
       "supply": 321858,
-      "demand": 106965,
+      "demand": 106946,
       "unitProfit": 7,
       "marginPct": 87.5,
-      "dailyVolumeEstimate": 106965,
-      "score": 440.05900361846216
+      "dailyVolumeEstimate": 106946,
+      "score": 440.05225307428697
     },
     {
       "id": 38460,
@@ -198,19 +185,6 @@
       "score": 424.4336737750955
     },
     {
-      "id": 12990,
-      "name": "Bronze Plated Dowel",
-      "icon": "https://render.guildwars2.com/file/1A34B1613F19C19997F40295A37E5AD902BB0F31/63487.png",
-      "buy": 79,
-      "sell": 184,
-      "supply": 17735,
-      "demand": 36136,
-      "unitProfit": 78,
-      "marginPct": 98.73417721518987,
-      "dailyVolumeEstimate": 17735,
-      "score": 419.5072696813945
-    },
-    {
       "id": 8887,
       "name": "Powerful Potion of Inquest Slaying",
       "icon": "https://render.guildwars2.com/file/72E638C510AC04A068DDBC3C7B3C49D1A860C114/222670.png",
@@ -235,6 +209,19 @@
       "marginPct": 96.66666666666667,
       "dailyVolumeEstimate": 19885,
       "score": 415.52625205760825
+    },
+    {
+      "id": 12990,
+      "name": "Bronze Plated Dowel",
+      "icon": "https://render.guildwars2.com/file/1A34B1613F19C19997F40295A37E5AD902BB0F31/63487.png",
+      "buy": 79,
+      "sell": 183,
+      "supply": 17737,
+      "demand": 36136,
+      "unitProfit": 77,
+      "marginPct": 97.46835443037975,
+      "dailyVolumeEstimate": 17737,
+      "score": 414.1337444218346
     },
     {
       "id": 12314,
@@ -274,6 +261,19 @@
       "marginPct": 98.91598915989161,
       "dailyVolumeEstimate": 12371,
       "score": 404.8077419067389
+    },
+    {
+      "id": 19730,
+      "name": "Coarse Leather Section",
+      "icon": "https://render.guildwars2.com/file/0BDAA40E3795930BBF3DC5ACE366ABAE2D5BBFB2/65947.png",
+      "buy": 11,
+      "sell": 22,
+      "supply": 5007800,
+      "demand": 286451,
+      "unitProfit": 8,
+      "marginPct": 72.72727272727273,
+      "dailyVolumeEstimate": 286451,
+      "score": 396.87649882388126
     },
     {
       "id": 12992,
@@ -437,7 +437,7 @@
       "icon": "https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png",
       "buy": 16,
       "sell": 32,
-      "supply": 244873,
+      "supply": 244842,
       "demand": 234432,
       "unitProfit": 11,
       "marginPct": 68.75,
@@ -619,12 +619,12 @@
       "icon": "https://render.guildwars2.com/file/4B7AC1EC2F70102B07AEE5D47FF049596B651467/433606.png",
       "buy": 127,
       "sell": 278,
-      "supply": 14141,
+      "supply": 14143,
       "demand": 45980,
       "unitProfit": 109,
       "marginPct": 85.8267716535433,
-      "dailyVolumeEstimate": 14141,
-      "score": 356.22494550154994
+      "dailyVolumeEstimate": 14143,
+      "score": 356.23021653222105
     },
     {
       "id": 20696,
@@ -770,19 +770,6 @@
       "score": 348.05176894377036
     },
     {
-      "id": 12729,
-      "name": "Bowl of Basic Vegetable Soup",
-      "icon": "https://render.guildwars2.com/file/52045B029EFB2FE35AFB5A05E72D903D526301F4/63292.png",
-      "buy": 42,
-      "sell": 99,
-      "supply": 3001,
-      "demand": 29579,
-      "unitProfit": 42,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 3001,
-      "score": 347.74106879072514
-    },
-    {
       "id": 12396,
       "name": "Plate of Coriander Crusted Meat Dinner",
       "icon": "https://render.guildwars2.com/file/AF7B269DB1CA0B6F46070A045C4A04550EB79EBF/339942.png",
@@ -794,6 +781,19 @@
       "marginPct": 75.53191489361703,
       "dailyVolumeEstimate": 40133,
       "score": 347.7121103083784
+    },
+    {
+      "id": 12729,
+      "name": "Bowl of Basic Vegetable Soup",
+      "icon": "https://render.guildwars2.com/file/52045B029EFB2FE35AFB5A05E72D903D526301F4/63292.png",
+      "buy": 42,
+      "sell": 99,
+      "supply": 2996,
+      "demand": 29579,
+      "unitProfit": 42,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 2996,
+      "score": 347.6686742945644
     },
     {
       "id": 23138,
@@ -827,12 +827,12 @@
       "icon": "https://render.guildwars2.com/file/72553F1D20D469715EBE7A61BE015A4E790D0136/65682.png",
       "buy": 10,
       "sell": 20,
-      "supply": 79752,
+      "supply": 79652,
       "demand": 126210,
       "unitProfit": 7,
       "marginPct": 70,
-      "dailyVolumeEstimate": 79752,
-      "score": 343.1222919962911
+      "dailyVolumeEstimate": 79652,
+      "score": 343.0841496205697
     },
     {
       "id": 12923,
@@ -1100,12 +1100,12 @@
       "icon": "https://render.guildwars2.com/file/B00E4AB7E79F5F73DCBD0B33D5ABA967A0F15824/1341436.png",
       "buy": 10,
       "sell": 18,
-      "supply": 3650039,
+      "supply": 3649789,
       "demand": 14466724,
       "unitProfit": 5,
       "marginPct": 50,
-      "dailyVolumeEstimate": 3650039,
-      "score": 328.1148811910989
+      "dailyVolumeEstimate": 3649789,
+      "score": 328.11339384659203
     },
     {
       "id": 44479,
@@ -1191,12 +1191,12 @@
       "icon": "https://render.guildwars2.com/file/0DF93CAB2913940F5FD44FF66EF309632125DB28/65936.png",
       "buy": 24,
       "sell": 46,
-      "supply": 158103,
+      "supply": 158053,
       "demand": 234715,
       "unitProfit": 15,
       "marginPct": 62.5,
-      "dailyVolumeEstimate": 158103,
-      "score": 324.9339286022432
+      "dailyVolumeEstimate": 158053,
+      "score": 324.92534320970367
     },
     {
       "id": 75993,
@@ -1223,6 +1223,19 @@
       "marginPct": 100,
       "dailyVolumeEstimate": 1751,
       "score": 324.35341018320617
+    },
+    {
+      "id": 24711,
+      "name": "Superior Rune of Vampirism",
+      "icon": "https://render.guildwars2.com/file/F13EECC6AED473604A097A5DBB0861E3410702EF/220724.png",
+      "buy": 259,
+      "sell": 578,
+      "supply": 9341,
+      "demand": 4131,
+      "unitProfit": 232,
+      "marginPct": 89.57528957528957,
+      "dailyVolumeEstimate": 4131,
+      "score": 323.918607173992
     },
     {
       "id": 19817,
@@ -1288,19 +1301,6 @@
       "marginPct": 69.86301369863014,
       "dailyVolumeEstimate": 41769,
       "score": 322.8275181349605
-    },
-    {
-      "id": 12301,
-      "name": "Sage-Stuffed Poultry",
-      "icon": "https://render.guildwars2.com/file/901F0C3969D10EF1BA5AA8309F68F3D3339E547B/63303.png",
-      "buy": 119,
-      "sell": 275,
-      "supply": 2284,
-      "demand": 18917,
-      "unitProfit": 114,
-      "marginPct": 95.7983193277311,
-      "dailyVolumeEstimate": 2284,
-      "score": 321.77565319518413
     }
   ]
 }
