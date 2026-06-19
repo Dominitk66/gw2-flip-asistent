@@ -1,9 +1,12 @@
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { TipRow } from './lib/tips.ts'
 import { goldToCopper } from './lib/format.ts'
+import { loadJson, saveJson } from './lib/storage.ts'
+import type { TrackRecord } from './lib/confidence.ts'
 import TipsView from './components/TipsView.tsx'
 import Calculator, { type CalcPrefill } from './components/Calculator.tsx'
 import TradeJournal, { type JournalPrefill } from './components/TradeJournal.tsx'
+import Watcher from './components/Watcher.tsx'
 import type { ScoredTip } from './components/TipsTable.tsx'
 
 interface TipsFile {
@@ -12,14 +15,16 @@ interface TipsFile {
   tips: TipRow[]
 }
 
-type Tab = 'tipy' | 'kalkulacka' | 'dennik'
+type Tab = 'tipy' | 'kalkulacka' | 'dennik' | 'sledovane'
 
 const BUDGET_KEY = 'gw2flip.budgetGold'
+const PINNED_KEY = 'gw2flip.pinned'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'tipy', label: 'Tipy' },
   { id: 'kalkulacka', label: 'Kalkulačka' },
   { id: 'dennik', label: 'Môj denník' },
+  { id: 'sledovane', label: 'Sledované' },
 ]
 
 export default function App() {
@@ -34,6 +39,11 @@ export default function App() {
   const [journalPrefill, setJournalPrefill] = useState<JournalPrefill | null>(
     null,
   )
+  const [tracker, setTracker] = useState<Record<string, TrackRecord>>({})
+  const [pinned, setPinned] = useState<number[]>(() =>
+    loadJson<number[]>(PINNED_KEY, []),
+  )
+  const pinnedSet = useMemo(() => new Set(pinned), [pinned])
 
   function openCalc(t: ScoredTip) {
     setCalcPrefill({ name: t.name, buy: t.buy, sell: t.sell })
@@ -45,6 +55,16 @@ export default function App() {
     setTab('dennik')
   }
 
+  function togglePin(id: number) {
+    setPinned((prev) => {
+      const next = prev.includes(id)
+        ? prev.filter((x) => x !== id)
+        : [...prev, id]
+      saveJson(PINNED_KEY, next)
+      return next
+    })
+  }
+
   const load = useCallback(async () => {
     setLoading(true)
     setError(null)
@@ -54,6 +74,19 @@ export default function App() {
       )
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       setData((await res.json()) as TipsFile)
+      try {
+        const tr = await fetch(
+          `${import.meta.env.BASE_URL}data/tracker.json?t=${Date.now()}`,
+        )
+        if (tr.ok) {
+          const tj = (await tr.json()) as {
+            items?: Record<string, TrackRecord>
+          }
+          setTracker(tj.items ?? {})
+        }
+      } catch {
+        setTracker({})
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Neznáma chyba')
     } finally {
@@ -121,8 +154,11 @@ export default function App() {
               <TipsView
                 tips={data.tips}
                 budgetCopper={budgetCopper}
+                tracker={tracker}
+                pinned={pinnedSet}
                 onCalc={openCalc}
                 onJournal={openJournal}
+                onTogglePin={togglePin}
               />
             ) : (
               <p className="info">Zatiaľ žiadne tipy. Skús neskôr.</p>
@@ -133,6 +169,15 @@ export default function App() {
 
       {tab === 'kalkulacka' && <Calculator prefill={calcPrefill} />}
       {tab === 'dennik' && <TradeJournal prefill={journalPrefill} />}
+
+      {tab === 'sledovane' && (
+        <Watcher
+          tips={data?.tips ?? []}
+          tracker={tracker}
+          pinned={pinned}
+          onTogglePin={togglePin}
+        />
+      )}
 
       <footer className="foot">
         <p>

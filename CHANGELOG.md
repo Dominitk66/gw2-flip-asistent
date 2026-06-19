@@ -5,6 +5,15 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Overenie spoľahlivosti + Sledované (2026-06-20)
+Najdôležitejšia novinka: appka teraz overuje, či sa na tipe dá **reálne**
+zarobiť, alebo je len **nafúknutý**. Pri každom tipe je štítok Spoľahlivosť:
+**Overené** (ziskové stabilne viac dní), **Nové** (krátko sledované) alebo
+**Podozrivé** (cena náhle vyskočila — môže spadnúť späť). Funguje vďaka
+histórii, ktorú appka zbiera každú hodinu, takže presnosť rastie s časom.
+Pribudla aj záložka **Sledované**: hviezdičkou ☆ si pripneš položky a vidíš
+ich 3-dňový trend a verdikt na jednom mieste.
+
 ### Pridané — Denník obchodov (2026-06-20)
 Nová záložka **Môj denník**: zapíšeš si nákupy a predaje a appka spočíta, či
 reálne zarábaš — hore súhrn (viazaný kapitál, **realizovaný zisk po dani**, ROI,

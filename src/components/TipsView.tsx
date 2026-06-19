@@ -2,19 +2,26 @@ import { useMemo, useState } from 'react'
 import type { TipRow } from '../lib/tips.ts'
 import { scoreCandidate } from '../lib/scoring.ts'
 import TipsTable, { type ScoredTip, type SortKey } from './TipsTable.tsx'
+import type { TrackRecord } from '../lib/confidence.ts'
 
 interface Props {
   tips: TipRow[]
   budgetCopper: number
+  tracker?: Record<string, TrackRecord>
+  pinned?: Set<number>
   onCalc?: (t: ScoredTip) => void
   onJournal?: (t: ScoredTip) => void
+  onTogglePin?: (id: number) => void
 }
 
 export default function TipsView({
   tips,
   budgetCopper,
+  tracker,
+  pinned,
   onCalc,
   onJournal,
+  onTogglePin,
 }: Props) {
   const [search, setSearch] = useState('')
   const [minMargin, setMinMargin] = useState('')
@@ -97,8 +104,11 @@ export default function TipsView({
         sortKey={sortKey}
         sortDir={sortDir}
         onSort={onSort}
+        tracker={tracker}
+        pinned={pinned}
         onCalc={onCalc}
         onJournal={onJournal}
+        onTogglePin={onTogglePin}
       />
     </>
   )
