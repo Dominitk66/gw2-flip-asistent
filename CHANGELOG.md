@@ -5,6 +5,14 @@ programátorov.
 
 ## [Unreleased]
 
+### Pridané — Napojenie na ceny z GW2 (2026-06-20)
+Appka sa teraz vie napojiť na oficiálne Guild Wars 2 API a stiahnuť aktuálne
+ceny položiek z Trading Post. Otestované naživo na reálnych dátach — a hneď to
+ukázalo svoju hodnotu: väčšina „bežných" položiek (Glob of Ectoplasm, rudy) sa
+pri aktuálnych cenách flipovať NEOPLATÍ, lebo 15 % daň zožerie celý rozdiel —
+zatiaľ čo nenápadné položky majú slušnú maržu. Presne toto bude appka hľadať
+za teba naprieč tisíckami položiek.
+
 ### Pridané — Mozog appky / scoring engine (2026-06-19)
 Pridali sme „mozog" aplikácie — výpočty, ktoré rozhodujú, čo sa oplatí kúpiť a
 predať. Počíta čistý zisk po 15 % dani, maržu, koľko kusov kúpiť (nikdy nie viac,
