@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:24:05.663Z",
+  "generatedAt": "2026-06-19T22:28:48.529Z",
   "count": 100,
   "tips": [
     {
@@ -9,11 +9,11 @@
       "buy": 4,
       "sell": 10,
       "supply": 13331482,
-      "demand": 2425878,
+      "demand": 2425861,
       "unitProfit": 4,
       "marginPct": 100,
-      "dailyVolumeEstimate": 2425878,
-      "score": 638.4869134971261
+      "dailyVolumeEstimate": 2425861,
+      "score": 638.4866091525128
     },
     {
       "id": 77667,
@@ -21,12 +21,12 @@
       "icon": "https://render.guildwars2.com/file/0AD3511B0737F37DD61FA16B069DCA1E0CF0AA06/1322534.png",
       "buy": 5,
       "sell": 12,
-      "supply": 4652724,
-      "demand": 1970137,
+      "supply": 4652725,
+      "demand": 1970135,
       "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 1970137,
-      "score": 629.4496647755216
+      "dailyVolumeEstimate": 1970135,
+      "score": 629.4496206877773
     },
     {
       "id": 68636,
@@ -74,11 +74,11 @@
       "buy": 2,
       "sell": 6,
       "supply": 363739,
-      "demand": 189319,
+      "demand": 189316,
       "unitProfit": 2,
       "marginPct": 100,
-      "dailyVolumeEstimate": 189319,
-      "score": 527.7196495795956
+      "dailyVolumeEstimate": 189316,
+      "score": 527.7189613830138
     },
     {
       "id": 43909,
@@ -118,19 +118,6 @@
       "marginPct": 100,
       "dailyVolumeEstimate": 101587,
       "score": 500.6842410294605
-    },
-    {
-      "id": 12135,
-      "name": "Potato",
-      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
-      "buy": 12,
-      "sell": 27,
-      "supply": 1216489,
-      "demand": 162094,
-      "unitProfit": 11,
-      "marginPct": 91.66666666666666,
-      "dailyVolumeEstimate": 162094,
-      "score": 477.56221505302733
     },
     {
       "id": 12324,
@@ -203,7 +190,7 @@
       "icon": "https://render.guildwars2.com/file/0C6871D2069E2C074A93E205C9C7097DBF0E9D13/65963.png",
       "buy": 9,
       "sell": 21,
-      "supply": 374917,
+      "supply": 374912,
       "demand": 17895,
       "unitProfit": 9,
       "marginPct": 100,
@@ -216,7 +203,7 @@
       "icon": "https://render.guildwars2.com/file/6DD06745F5484B1F1CF0DD9BED26573504BF1575/66969.png",
       "buy": 58,
       "sell": 134,
-      "supply": 29706,
+      "supply": 29712,
       "demand": 24883,
       "unitProfit": 56,
       "marginPct": 96.55172413793103,
@@ -302,6 +289,19 @@
       "score": 404.8077419067389
     },
     {
+      "id": 12135,
+      "name": "Potato",
+      "icon": "https://render.guildwars2.com/file/24CE9454113F0609E6E9B655EF0670B40D5522EC/63245.png",
+      "buy": 13,
+      "sell": 27,
+      "supply": 1216489,
+      "demand": 162344,
+      "unitProfit": 10,
+      "marginPct": 76.92307692307693,
+      "dailyVolumeEstimate": 162344,
+      "score": 400.8029936540408
+    },
+    {
       "id": 12992,
       "name": "Steel Plated Dowel",
       "icon": "https://render.guildwars2.com/file/D87B1BB6BE69A3B90FBFD0D8E9AC5F0861FB7DF8/63489.png",
@@ -321,7 +321,7 @@
       "buy": 348,
       "sell": 748,
       "supply": 54942,
-      "demand": 93282,
+      "demand": 93278,
       "unitProfit": 288,
       "marginPct": 82.75862068965517,
       "dailyVolumeEstimate": 54942,
@@ -346,25 +346,12 @@
       "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
       "buy": 16,
       "sell": 36,
-      "supply": 56343,
-      "demand": 29898,
+      "supply": 56339,
+      "demand": 29853,
       "unitProfit": 14,
       "marginPct": 87.5,
-      "dailyVolumeEstimate": 29898,
-      "score": 391.6199580284663
-    },
-    {
-      "id": 8826,
-      "name": "Minor Potion of Demon Slaying",
-      "icon": "https://render.guildwars2.com/file/532BB51ED1F3ED52224BDF647AC7B1753938C032/222708.png",
-      "buy": 97,
-      "sell": 219,
-      "supply": 25704,
-      "demand": 18164,
-      "unitProfit": 89,
-      "marginPct": 91.75257731958763,
-      "dailyVolumeEstimate": 18164,
-      "score": 390.7958255625642
+      "dailyVolumeEstimate": 29853,
+      "score": 391.56272124217
     },
     {
       "id": 36074,
@@ -484,19 +471,6 @@
       "score": 369.31977758218886
     },
     {
-      "id": 19720,
-      "name": "Bolt of Jute",
-      "icon": "https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png",
-      "buy": 16,
-      "sell": 32,
-      "supply": 244928,
-      "demand": 234432,
-      "unitProfit": 11,
-      "marginPct": 68.75,
-      "dailyVolumeEstimate": 234432,
-      "score": 369.1887887313817
-    },
-    {
       "id": 101427,
       "name": "Visage of the Great Dragon Fireworks",
       "icon": "https://render.guildwars2.com/file/794C0F611CB40836A39108DE60C96B3463AABC62/3240050.png",
@@ -541,12 +515,12 @@
       "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
       "buy": 7,
       "sell": 17,
-      "supply": 2236025,
-      "demand": 4667,
+      "supply": 2235815,
+      "demand": 4657,
       "unitProfit": 7,
       "marginPct": 100,
-      "dailyVolumeEstimate": 4667,
-      "score": 366.91308473733324
+      "dailyVolumeEstimate": 4657,
+      "score": 366.8199484198662
     },
     {
       "id": 9300,
@@ -696,13 +670,13 @@
       "name": "Wool Patch",
       "icon": "https://render.guildwars2.com/file/360D24BA0AED40FF2A5E190DE421470EFCD57112/1201854.png",
       "buy": 22,
-      "sell": 45,
-      "supply": 72284,
-      "demand": 97089,
+      "sell": 44,
+      "supply": 72702,
+      "demand": 97339,
       "unitProfit": 16,
       "marginPct": 72.72727272727273,
-      "dailyVolumeEstimate": 72284,
-      "score": 353.3853225714102
+      "dailyVolumeEstimate": 72702,
+      "score": 353.5674423168853
     },
     {
       "id": 77686,
@@ -710,7 +684,7 @@
       "icon": "https://render.guildwars2.com/file/B3004CB4D2E6A2F3E99EB6D1F61243AD9D3FE87F/1341439.png",
       "buy": 20,
       "sell": 40,
-      "supply": 959590,
+      "supply": 959582,
       "demand": 109363,
       "unitProfit": 14,
       "marginPct": 70,
@@ -749,12 +723,12 @@
       "icon": "https://render.guildwars2.com/file/09206A087606CFC674AC19E1E5CCADB6B3302061/66601.png",
       "buy": 104,
       "sell": 239,
-      "supply": 4787,
+      "supply": 4791,
       "demand": 7883,
       "unitProfit": 99,
       "marginPct": 95.1923076923077,
-      "dailyVolumeEstimate": 4787,
-      "score": 350.322365415099
+      "dailyVolumeEstimate": 4791,
+      "score": 350.356888585331
     },
     {
       "id": 12329,
@@ -801,7 +775,7 @@
       "icon": "https://render.guildwars2.com/file/3EDF686E07DAD8E550C62C1F7E77094567332269/3744699.png",
       "buy": 53,
       "sell": 111,
-      "supply": 61058,
+      "supply": 60808,
       "demand": 31564,
       "unitProfit": 41,
       "marginPct": 77.35849056603774,
@@ -991,12 +965,25 @@
       "score": 335.847168609142
     },
     {
+      "id": 19720,
+      "name": "Bolt of Jute",
+      "icon": "https://render.guildwars2.com/file/B7BA22DDCF0F4277A692D5D75271F9491AC303AD/63573.png",
+      "buy": 16,
+      "sell": 31,
+      "supply": 244974,
+      "demand": 234432,
+      "unitProfit": 10,
+      "marginPct": 62.5,
+      "dailyVolumeEstimate": 234432,
+      "score": 335.62617157398336
+    },
+    {
       "id": 12471,
       "name": "Bowl of Seaweed Salad",
       "icon": "https://render.guildwars2.com/file/0D442C30D4E29832725800E22990BA111D05E0BE/219455.png",
       "buy": 150,
       "sell": 340,
-      "supply": 8584,
+      "supply": 8585,
       "demand": 4077,
       "unitProfit": 139,
       "marginPct": 92.66666666666666,
@@ -1140,7 +1127,7 @@
       "buy": 10,
       "sell": 18,
       "supply": 3650039,
-      "demand": 14466726,
+      "demand": 14466724,
       "unitProfit": 5,
       "marginPct": 50,
       "dailyVolumeEstimate": 3650039,
@@ -1178,7 +1165,7 @@
       "icon": "https://render.guildwars2.com/file/5E5A34BD30EE6814DEC6C2D0FD9DAB0CD164CCAF/831462.png",
       "buy": 1840,
       "sell": 4213,
-      "supply": 3771,
+      "supply": 3772,
       "demand": 2808,
       "unitProfit": 1741,
       "marginPct": 94.6195652173913,
@@ -1218,7 +1205,7 @@
       "buy": 24,
       "sell": 46,
       "supply": 158103,
-      "demand": 234596,
+      "demand": 234547,
       "unitProfit": 15,
       "marginPct": 62.5,
       "dailyVolumeEstimate": 158103,
@@ -1301,6 +1288,19 @@
       "marginPct": 69.86301369863014,
       "dailyVolumeEstimate": 41772,
       "score": 322.82969721313714
+    },
+    {
+      "id": 12301,
+      "name": "Sage-Stuffed Poultry",
+      "icon": "https://render.guildwars2.com/file/901F0C3969D10EF1BA5AA8309F68F3D3339E547B/63303.png",
+      "buy": 119,
+      "sell": 275,
+      "supply": 2282,
+      "demand": 18917,
+      "unitProfit": 114,
+      "marginPct": 95.7983193277311,
+      "dailyVolumeEstimate": 2282,
+      "score": 321.73922177301415
     }
   ]
 }
