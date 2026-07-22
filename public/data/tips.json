@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T09:38:27.564Z",
+  "generatedAt": "2026-07-22T12:04:42.458Z",
   "count": 100,
   "tips": [
     {
@@ -9,12 +9,26 @@
       "rarity": "Exotic",
       "buy": 3,
       "sell": 8,
-      "supply": 1096325,
-      "demand": 981577,
+      "supply": 1096335,
+      "demand": 981435,
       "unitProfit": 3,
       "marginPct": 100,
-      "dailyVolumeEstimate": 981577,
-      "score": 599.1924816033462
+      "dailyVolumeEstimate": 981435,
+      "score": 599.1861984269107
+    },
+    {
+      "id": 101213,
+      "name": "Rift Essence Coffer",
+      "icon": "https://render.guildwars2.com/file/DC53E3DCA0B1030DD897A0AB0F0B606DCD994451/3187524.png",
+      "rarity": "Masterwork",
+      "buy": 2,
+      "sell": 6,
+      "supply": 382384,
+      "demand": 197554,
+      "unitProfit": 2,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 197554,
+      "score": 529.5688025892586
     },
     {
       "id": 48717,
@@ -23,12 +37,12 @@
       "rarity": "Masterwork",
       "buy": 2,
       "sell": 6,
-      "supply": 2193337,
-      "demand": 195139,
+      "supply": 2193356,
+      "demand": 195038,
       "unitProfit": 2,
       "marginPct": 100,
-      "dailyVolumeEstimate": 195139,
-      "score": 529.0346300653932
+      "dailyVolumeEstimate": 195038,
+      "score": 529.0121461574166
     },
     {
       "id": 12329,
@@ -36,13 +50,13 @@
       "icon": "https://render.guildwars2.com/file/A20171F1CF0AD20AB2C0430AF573F09ED8D4CAD3/63366.png",
       "rarity": "Basic",
       "buy": 15,
-      "sell": 35,
-      "supply": 118162,
+      "sell": 34,
+      "supply": 118169,
       "demand": 150554,
       "unitProfit": 14,
       "marginPct": 93.33333333333333,
-      "dailyVolumeEstimate": 118162,
-      "score": 473.4316074691424
+      "dailyVolumeEstimate": 118169,
+      "score": 473.43400864935506
     },
     {
       "id": 68635,
@@ -51,12 +65,12 @@
       "rarity": "Rare",
       "buy": 5,
       "sell": 11,
-      "supply": 779444,
-      "demand": 1545238,
+      "supply": 779445,
+      "demand": 1545205,
       "unitProfit": 4,
       "marginPct": 80,
-      "dailyVolumeEstimate": 779444,
-      "score": 471.3428380377578
+      "dailyVolumeEstimate": 779445,
+      "score": 471.3428826124697
     },
     {
       "id": 75689,
@@ -65,12 +79,40 @@
       "rarity": "Rare",
       "buy": 3,
       "sell": 8,
-      "supply": 48451,
-      "demand": 41559,
+      "supply": 48455,
+      "demand": 41543,
       "unitProfit": 3,
       "marginPct": 100,
-      "dailyVolumeEstimate": 41559,
-      "score": 461.86755388851395
+      "dailyVolumeEstimate": 41543,
+      "score": 461.8508309587
+    },
+    {
+      "id": 71307,
+      "name": "Jute Patch",
+      "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
+      "rarity": "Basic",
+      "buy": 21,
+      "sell": 48,
+      "supply": 50918,
+      "demand": 39916,
+      "unitProfit": 20,
+      "marginPct": 95.23809523809523,
+      "dailyVolumeEstimate": 39916,
+      "score": 438.20551371695746
+    },
+    {
+      "id": 36047,
+      "name": "Recipe: Major Rune of the Mad King",
+      "icon": "https://render.guildwars2.com/file/7725EEB5EE0E4905B6193F2B2507E7C004A2D6EA/849264.png",
+      "rarity": "Rare",
+      "buy": 2,
+      "sell": 6,
+      "supply": 23970,
+      "demand": 19455,
+      "unitProfit": 2,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 19455,
+      "score": 428.90535575926407
     },
     {
       "id": 68439,
@@ -87,18 +129,18 @@
       "score": 428.0862592466337
     },
     {
-      "id": 73096,
-      "name": "Pile of Allspice Berries",
-      "icon": "https://render.guildwars2.com/file/770B2D0EFD6CE8971297B51FAF12B3A40562E973/1202987.png",
-      "rarity": "Basic",
-      "buy": 61,
-      "sell": 139,
-      "supply": 22993,
-      "demand": 72520,
-      "unitProfit": 57,
-      "marginPct": 93.44262295081968,
-      "dailyVolumeEstimate": 22993,
-      "score": 407.5607017056004
+      "id": 19761,
+      "name": "Soft Wood Dowel",
+      "icon": "https://render.guildwars2.com/file/7EF260ECA9BAF72DF10A7FCDC9564E9ADF5C23C0/65965.png",
+      "rarity": "Fine",
+      "buy": 14,
+      "sell": 33,
+      "supply": 165663,
+      "demand": 14702,
+      "unitProfit": 14,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 14702,
+      "score": 416.7405957232292
     },
     {
       "id": 12176,
@@ -115,34 +157,6 @@
       "score": 403.7954855350784
     },
     {
-      "id": 75862,
-      "name": "Pouch of White Pigment",
-      "icon": "https://render.guildwars2.com/file/E20809A539CF3813A92E6832734053F579673FDE/1200715.png",
-      "rarity": "Fine",
-      "buy": 62,
-      "sell": 134,
-      "supply": 441873,
-      "demand": 64629,
-      "unitProfit": 52,
-      "marginPct": 83.87096774193549,
-      "dailyVolumeEstimate": 64629,
-      "score": 403.45576791609517
-    },
-    {
-      "id": 71398,
-      "name": "Ascalonian Lumber Core",
-      "icon": "https://render.guildwars2.com/file/BDEAEB0F2A28614313386FD41E07F1D10E4B5775/455860.png",
-      "rarity": "Rare",
-      "buy": 15,
-      "sell": 34,
-      "supply": 19809,
-      "demand": 62446,
-      "unitProfit": 14,
-      "marginPct": 93.33333333333333,
-      "dailyVolumeEstimate": 19809,
-      "score": 401.04255105026436
-    },
-    {
       "id": 12160,
       "name": "Loaf of Walnut Sticky Bread",
       "icon": "https://render.guildwars2.com/file/5FF179044A0DC9D491333A1A6760054E0E3B6F09/63111.png",
@@ -155,34 +169,6 @@
       "marginPct": 98.32775919732441,
       "dailyVolumeEstimate": 11110,
       "score": 397.80984126845397
-    },
-    {
-      "id": 71307,
-      "name": "Jute Patch",
-      "icon": "https://render.guildwars2.com/file/0552CD2202B3691A1E6B26A0D6195DC13A5C7827/1201851.png",
-      "rarity": "Basic",
-      "buy": 22,
-      "sell": 48,
-      "supply": 50918,
-      "demand": 40100,
-      "unitProfit": 19,
-      "marginPct": 86.36363636363636,
-      "dailyVolumeEstimate": 40100,
-      "score": 397.5452220575365
-    },
-    {
-      "id": 12385,
-      "name": "Blackberry Pie",
-      "icon": "https://render.guildwars2.com/file/D9F7BA99B067AB3596B115CE69AD04391AF8231D/339931.png",
-      "rarity": "Fine",
-      "buy": 128,
-      "sell": 297,
-      "supply": 64518,
-      "demand": 12612,
-      "unitProfit": 124,
-      "marginPct": 96.875,
-      "dailyVolumeEstimate": 12612,
-      "score": 397.26678208649264
     },
     {
       "id": 36049,
@@ -213,6 +199,34 @@
       "score": 394.6416836779424
     },
     {
+      "id": 73096,
+      "name": "Pile of Allspice Berries",
+      "icon": "https://render.guildwars2.com/file/770B2D0EFD6CE8971297B51FAF12B3A40562E973/1202987.png",
+      "rarity": "Basic",
+      "buy": 62,
+      "sell": 139,
+      "supply": 23033,
+      "demand": 72770,
+      "unitProfit": 56,
+      "marginPct": 90.32258064516128,
+      "dailyVolumeEstimate": 23033,
+      "score": 394.02045854848177
+    },
+    {
+      "id": 12385,
+      "name": "Blackberry Pie",
+      "icon": "https://render.guildwars2.com/file/D9F7BA99B067AB3596B115CE69AD04391AF8231D/339931.png",
+      "rarity": "Fine",
+      "buy": 128,
+      "sell": 296,
+      "supply": 64749,
+      "demand": 12431,
+      "unitProfit": 123,
+      "marginPct": 96.09375,
+      "dailyVolumeEstimate": 12431,
+      "score": 393.4597993587431
+    },
+    {
       "id": 12129,
       "name": "Spicy Meat Kabob",
       "icon": "https://render.guildwars2.com/file/0B7BEE0ED1A4AC1E7F2478C8C606FA4EAFC228CE/219397.png",
@@ -225,20 +239,6 @@
       "marginPct": 95.1219512195122,
       "dailyVolumeEstimate": 13338,
       "score": 392.38977470616567
-    },
-    {
-      "id": 73139,
-      "name": "Pristine Feather",
-      "icon": "https://render.guildwars2.com/file/CD641E313C19ACDDAE34CDC52B48181EC763089F/63110.png",
-      "rarity": "Rare",
-      "buy": 46,
-      "sell": 98,
-      "supply": 74622,
-      "demand": 101511,
-      "unitProfit": 37,
-      "marginPct": 80.43478260869566,
-      "dailyVolumeEstimate": 74622,
-      "score": 391.9484566742152
     },
     {
       "id": 77619,
@@ -255,18 +255,18 @@
       "score": 389.553303948407
     },
     {
-      "id": 19853,
-      "name": "Assassin's Silk Insignia",
-      "icon": "https://render.guildwars2.com/file/D505471EC8D12FBED7B4233E290D0F0294075A95/434330.png",
+      "id": 75862,
+      "name": "Pouch of White Pigment",
+      "icon": "https://render.guildwars2.com/file/E20809A539CF3813A92E6832734053F579673FDE/1200715.png",
       "rarity": "Fine",
-      "buy": 171,
-      "sell": 398,
-      "supply": 16992,
-      "demand": 9455,
-      "unitProfit": 167,
-      "marginPct": 97.6608187134503,
-      "dailyVolumeEstimate": 9455,
-      "score": 388.27084585421585
+      "buy": 62,
+      "sell": 132,
+      "supply": 442085,
+      "demand": 64879,
+      "unitProfit": 50,
+      "marginPct": 80.64516129032258,
+      "dailyVolumeEstimate": 64879,
+      "score": 388.0734549357338
     },
     {
       "id": 12384,
@@ -283,34 +283,6 @@
       "score": 384.59411400637026
     },
     {
-      "id": 9431,
-      "name": "Rough Sharpening Stone",
-      "icon": "https://render.guildwars2.com/file/B6770507DB40138072AA38C600B601222A1C3E3D/219356.png",
-      "rarity": "Fine",
-      "buy": 56,
-      "sell": 124,
-      "supply": 20019,
-      "demand": 21600,
-      "unitProfit": 50,
-      "marginPct": 89.28571428571429,
-      "dailyVolumeEstimate": 20019,
-      "score": 384.05929224493747
-    },
-    {
-      "id": 19861,
-      "name": "Berserker's Silk Insignia",
-      "icon": "https://render.guildwars2.com/file/6FA245980CF6E00EFD4DB70205D6CA1002259FB3/434338.png",
-      "rarity": "Fine",
-      "buy": 169,
-      "sell": 389,
-      "supply": 14596,
-      "demand": 9863,
-      "unitProfit": 162,
-      "marginPct": 95.85798816568047,
-      "dailyVolumeEstimate": 9863,
-      "score": 382.8618913024872
-    },
-    {
       "id": 36078,
       "name": "Candy Corn Cookie",
       "icon": "https://render.guildwars2.com/file/64E3C8AD9930D1E7C7D4972A1BE4430EBB0F09DE/499408.png",
@@ -318,7 +290,7 @@
       "buy": 126,
       "sell": 276,
       "supply": 27031,
-      "demand": 55486,
+      "demand": 55483,
       "unitProfit": 108,
       "marginPct": 85.71428571428571,
       "dailyVolumeEstimate": 27031,
@@ -332,25 +304,11 @@
       "buy": 65,
       "sell": 150,
       "supply": 11207,
-      "demand": 9546,
+      "demand": 9542,
       "unitProfit": 62,
       "marginPct": 95.38461538461539,
-      "dailyVolumeEstimate": 9546,
-      "score": 379.61807569080617
-    },
-    {
-      "id": 21680,
-      "name": "Jagged Metal Scrap",
-      "icon": "https://render.guildwars2.com/file/44AD4BA2AC1B1C5B4E78D6B7540E0B150BAB40F3/66831.png",
-      "rarity": "Basic",
-      "buy": 41,
-      "sell": 96,
-      "supply": 36243,
-      "demand": 7777,
-      "unitProfit": 40,
-      "marginPct": 97.5609756097561,
-      "dailyVolumeEstimate": 7777,
-      "score": 379.596872079165
+      "dailyVolumeEstimate": 9542,
+      "score": 379.60071581119325
     },
     {
       "id": 12523,
@@ -367,6 +325,20 @@
       "score": 378.5603394878502
     },
     {
+      "id": 9431,
+      "name": "Rough Sharpening Stone",
+      "icon": "https://render.guildwars2.com/file/B6770507DB40138072AA38C600B601222A1C3E3D/219356.png",
+      "rarity": "Fine",
+      "buy": 56,
+      "sell": 123,
+      "supply": 20080,
+      "demand": 21630,
+      "unitProfit": 49,
+      "marginPct": 87.5,
+      "dailyVolumeEstimate": 20080,
+      "score": 376.49371691274865
+    },
+    {
       "id": 9433,
       "name": "Simple Sharpening Stone",
       "icon": "https://render.guildwars2.com/file/454F67913A0BE7796FAB776D6BD009B9940C40F5/219357.png",
@@ -379,34 +351,6 @@
       "marginPct": 94.30379746835443,
       "dailyVolumeEstimate": 9736,
       "score": 376.1236394499615
-    },
-    {
-      "id": 12487,
-      "name": "Bowl of Curry Pumpkin Soup",
-      "icon": "https://render.guildwars2.com/file/27DFF7C50A2DD85174C0090A7F00402109A4432D/433674.png",
-      "rarity": "Fine",
-      "buy": 244,
-      "sell": 566,
-      "supply": 10691,
-      "demand": 6661,
-      "unitProfit": 237,
-      "marginPct": 97.1311475409836,
-      "dailyVolumeEstimate": 6661,
-      "score": 371.39110529515267
-    },
-    {
-      "id": 12354,
-      "name": "Meat Pie",
-      "icon": "https://render.guildwars2.com/file/981EA539473DDD77F718180FE0091544B87548F3/63381.png",
-      "rarity": "Fine",
-      "buy": 531,
-      "sell": 1195,
-      "supply": 11596,
-      "demand": 22115,
-      "unitProfit": 484,
-      "marginPct": 91.1487758945386,
-      "dailyVolumeEstimate": 11596,
-      "score": 370.46013146261595
     },
     {
       "id": 95277,
@@ -427,14 +371,42 @@
       "name": "Homemade Lucky Envelope",
       "icon": "https://render.guildwars2.com/file/0AB8BB750C19EB24B53DE34511F2BA7271B2553C/947655.png",
       "rarity": "Masterwork",
-      "buy": 6769,
+      "buy": 6770,
       "sell": 15500,
       "supply": 13019,
-      "demand": 8131,
-      "unitProfit": 6406,
-      "marginPct": 94.63731718126755,
-      "dailyVolumeEstimate": 8131,
-      "score": 370.0505887428306
+      "demand": 8134,
+      "unitProfit": 6405,
+      "marginPct": 94.6085672082718,
+      "dailyVolumeEstimate": 8134,
+      "score": 369.9533257656245
+    },
+    {
+      "id": 12354,
+      "name": "Meat Pie",
+      "icon": "https://render.guildwars2.com/file/981EA539473DDD77F718180FE0091544B87548F3/63381.png",
+      "rarity": "Fine",
+      "buy": 532,
+      "sell": 1194,
+      "supply": 11610,
+      "demand": 22215,
+      "unitProfit": 483,
+      "marginPct": 90.78947368421053,
+      "dailyVolumeEstimate": 11610,
+      "score": 369.047373854114
+    },
+    {
+      "id": 12487,
+      "name": "Bowl of Curry Pumpkin Soup",
+      "icon": "https://render.guildwars2.com/file/27DFF7C50A2DD85174C0090A7F00402109A4432D/433674.png",
+      "rarity": "Fine",
+      "buy": 245,
+      "sell": 564,
+      "supply": 10767,
+      "demand": 6911,
+      "unitProfit": 235,
+      "marginPct": 95.91836734693877,
+      "dailyVolumeEstimate": 6911,
+      "score": 368.28852099005985
     },
     {
       "id": 8863,
@@ -443,12 +415,12 @@
       "rarity": "Fine",
       "buy": 165,
       "sell": 365,
-      "supply": 15442,
+      "supply": 15445,
       "demand": 17681,
       "unitProfit": 145,
       "marginPct": 87.87878787878788,
-      "dailyVolumeEstimate": 15442,
-      "score": 368.10066203614105
+      "dailyVolumeEstimate": 15445,
+      "score": 368.1080754077825
     },
     {
       "id": 20756,
@@ -456,13 +428,13 @@
       "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
       "rarity": "Fine",
       "buy": 6,
-      "sell": 15,
-      "supply": 4775,
-      "demand": 7138,
+      "sell": 14,
+      "supply": 4778,
+      "demand": 7134,
       "unitProfit": 6,
       "marginPct": 100,
-      "dailyVolumeEstimate": 4775,
-      "score": 367.90643181213125
+      "dailyVolumeEstimate": 4778,
+      "score": 367.93370305207935
     },
     {
       "id": 12304,
@@ -479,18 +451,18 @@
       "score": 366.57959761871024
     },
     {
-      "id": 21664,
-      "name": "Ripped Hide",
-      "icon": "https://render.guildwars2.com/file/30460ABED2580CEAB578CA7327263C6671601A11/66510.png",
-      "rarity": "Basic",
-      "buy": 14,
-      "sell": 31,
-      "supply": 16825,
-      "demand": 17310,
-      "unitProfit": 12,
-      "marginPct": 85.71428571428571,
-      "dailyVolumeEstimate": 16825,
-      "score": 362.226932963965
+      "id": 19861,
+      "name": "Berserker's Silk Insignia",
+      "icon": "https://render.guildwars2.com/file/6FA245980CF6E00EFD4DB70205D6CA1002259FB3/434338.png",
+      "rarity": "Fine",
+      "buy": 169,
+      "sell": 380,
+      "supply": 14598,
+      "demand": 9863,
+      "unitProfit": 154,
+      "marginPct": 91.12426035502959,
+      "dailyVolumeEstimate": 9863,
+      "score": 363.95513123816687
     },
     {
       "id": 20457,
@@ -521,32 +493,32 @@
       "score": 357.8982842702791
     },
     {
+      "id": 96477,
+      "name": "Mount Energy Booster 1",
+      "icon": "https://render.guildwars2.com/file/4BE0E50D5F971CB8C157C0CE02934D23EFE34E97/2595082.png",
+      "rarity": "Masterwork",
+      "buy": 1000,
+      "sell": 2300,
+      "supply": 12333,
+      "demand": 5586,
+      "unitProfit": 955,
+      "marginPct": 95.5,
+      "dailyVolumeEstimate": 5586,
+      "score": 357.8555631148957
+    },
+    {
       "id": 8858,
       "name": "Strong Potion of Ogre Slaying",
       "icon": "https://render.guildwars2.com/file/0BED45596FE12C054D9F1165AECA68CE4C635A91/222790.png",
       "rarity": "Fine",
       "buy": 127,
       "sell": 275,
-      "supply": 22326,
+      "supply": 22329,
       "demand": 19264,
       "unitProfit": 106,
       "marginPct": 83.46456692913385,
       "dailyVolumeEstimate": 19264,
       "score": 357.62639009054806
-    },
-    {
-      "id": 12162,
-      "name": "Turnip",
-      "icon": "https://render.guildwars2.com/file/753BAA18664504123A54FC9E7060A10107C9A574/63262.png",
-      "rarity": "Basic",
-      "buy": 6,
-      "sell": 15,
-      "supply": 1887140,
-      "demand": 3745,
-      "unitProfit": 6,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 3745,
-      "score": 357.35677730392183
     },
     {
       "id": 101427,
@@ -605,6 +577,20 @@
       "score": 353.2877625665173
     },
     {
+      "id": 20533,
+      "name": "Grape Leaf Dye",
+      "icon": "https://render.guildwars2.com/file/06DF4AD10F92FDC3AB0EA1D8411038D44758BD52/66654.png",
+      "rarity": "Fine",
+      "buy": 7,
+      "sell": 17,
+      "supply": 4117,
+      "demand": 3409,
+      "unitProfit": 7,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 3409,
+      "score": 353.27543789924977
+    },
+    {
       "id": 12817,
       "name": "Silver Setting",
       "icon": "https://render.guildwars2.com/file/02CC2A2B09AF07F234E02B5B561665A7967B0EDC/63394.png",
@@ -619,32 +605,18 @@
       "score": 353.24313328128824
     },
     {
-      "id": 101213,
-      "name": "Rift Essence Coffer",
-      "icon": "https://render.guildwars2.com/file/DC53E3DCA0B1030DD897A0AB0F0B606DCD994451/3187524.png",
-      "rarity": "Masterwork",
-      "buy": 3,
-      "sell": 7,
-      "supply": 382274,
-      "demand": 198254,
-      "unitProfit": 2,
-      "marginPct": 66.66666666666666,
-      "dailyVolumeEstimate": 198254,
-      "score": 353.14827660360595
-    },
-    {
-      "id": 12484,
-      "name": "Bowl of Fire Meat Chili",
-      "icon": "https://render.guildwars2.com/file/E03C2CA53D4B324379EF5DA85CF3CF547D551F7E/433671.png",
+      "id": 24534,
+      "name": "Amber Pebble",
+      "icon": "https://render.guildwars2.com/file/616CA09A677C9B41FCAE746DCD245F04084955D2/220960.png",
       "rarity": "Fine",
-      "buy": 545,
-      "sell": 1247,
-      "supply": 8482,
-      "demand": 5263,
-      "unitProfit": 515,
-      "marginPct": 94.4954128440367,
-      "dailyVolumeEstimate": 5263,
-      "score": 351.6472804609244
+      "buy": 21,
+      "sell": 44,
+      "supply": 69509,
+      "demand": 22673,
+      "unitProfit": 17,
+      "marginPct": 80.95238095238095,
+      "dailyVolumeEstimate": 22673,
+      "score": 352.59037342433896
     },
     {
       "id": 9309,
@@ -659,6 +631,20 @@
       "marginPct": 95.7095709570957,
       "dailyVolumeEstimate": 4656,
       "score": 351.0728742575881
+    },
+    {
+      "id": 12484,
+      "name": "Bowl of Fire Meat Chili",
+      "icon": "https://render.guildwars2.com/file/E03C2CA53D4B324379EF5DA85CF3CF547D551F7E/433671.png",
+      "rarity": "Fine",
+      "buy": 545,
+      "sell": 1246,
+      "supply": 8512,
+      "demand": 5263,
+      "unitProfit": 514,
+      "marginPct": 94.3119266055046,
+      "dailyVolumeEstimate": 5263,
+      "score": 350.96447020760223
     },
     {
       "id": 12227,
@@ -681,12 +667,12 @@
       "rarity": "Basic",
       "buy": 20,
       "sell": 45,
-      "supply": 13387,
-      "demand": 7676,
+      "supply": 13388,
+      "demand": 7651,
       "unitProfit": 18,
       "marginPct": 90,
-      "dailyVolumeEstimate": 7676,
-      "score": 349.6672386546163
+      "dailyVolumeEstimate": 7651,
+      "score": 349.53974652197326
     },
     {
       "id": 12393,
@@ -703,20 +689,6 @@
       "score": 349.28951002803456
     },
     {
-      "id": 19783,
-      "name": "Vital Green Inscription",
-      "icon": "https://render.guildwars2.com/file/11C41A3B69CA387A774794060824CBD923A4413A/65987.png",
-      "rarity": "Fine",
-      "buy": 6,
-      "sell": 14,
-      "supply": 36169,
-      "demand": 3088,
-      "unitProfit": 6,
-      "marginPct": 100,
-      "dailyVolumeEstimate": 3088,
-      "score": 348.98179083014503
-    },
-    {
       "id": 24223,
       "name": "Seraph Badge",
       "icon": "https://render.guildwars2.com/file/CC2E01E0F566A6EEF4F2EC2B19AA7A3E1FEFB1B4/60984.png",
@@ -729,6 +701,20 @@
       "marginPct": 86.95652173913044,
       "dailyVolumeEstimate": 10278,
       "score": 348.86529270081724
+    },
+    {
+      "id": 19783,
+      "name": "Vital Green Inscription",
+      "icon": "https://render.guildwars2.com/file/11C41A3B69CA387A774794060824CBD923A4413A/65987.png",
+      "rarity": "Fine",
+      "buy": 6,
+      "sell": 14,
+      "supply": 36168,
+      "demand": 3079,
+      "unitProfit": 6,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 3079,
+      "score": 348.8550716500444
     },
     {
       "id": 9469,
@@ -751,26 +737,12 @@
       "rarity": "Fine",
       "buy": 153,
       "sell": 352,
-      "supply": 4403,
+      "supply": 4469,
       "demand": 22873,
       "unitProfit": 146,
       "marginPct": 95.42483660130719,
-      "dailyVolumeEstimate": 4403,
-      "score": 347.7135341854629
-    },
-    {
-      "id": 24687,
-      "name": "Superior Rune of the Afflicted",
-      "icon": "https://render.guildwars2.com/file/B952E2BB3ACDF477F4C823655DAC1294C9A12745/220692.png",
-      "rarity": "Exotic",
-      "buy": 354,
-      "sell": 795,
-      "supply": 6792,
-      "demand": 9721,
-      "unitProfit": 321,
-      "marginPct": 90.67796610169492,
-      "dailyVolumeEstimate": 6792,
-      "score": 347.4835531874643
+      "dailyVolumeEstimate": 4469,
+      "score": 348.32999893938745
     },
     {
       "id": 12813,
@@ -785,20 +757,6 @@
       "marginPct": 90.9090909090909,
       "dailyVolumeEstimate": 6457,
       "score": 346.37254915283114
-    },
-    {
-      "id": 8821,
-      "name": "Minor Potion of Outlaw Slaying",
-      "icon": "https://render.guildwars2.com/file/1E3CE55804A1E961F9E76AB93241903D73CABECA/220455.png",
-      "rarity": "Fine",
-      "buy": 135,
-      "sell": 297,
-      "supply": 9773,
-      "demand": 11707,
-      "unitProfit": 117,
-      "marginPct": 86.66666666666667,
-      "dailyVolumeEstimate": 9773,
-      "score": 345.8062690066533
     },
     {
       "id": 19817,
@@ -829,6 +787,20 @@
       "score": 345.6301127982926
     },
     {
+      "id": 24687,
+      "name": "Superior Rune of the Afflicted",
+      "icon": "https://render.guildwars2.com/file/B952E2BB3ACDF477F4C823655DAC1294C9A12745/220692.png",
+      "rarity": "Exotic",
+      "buy": 354,
+      "sell": 791,
+      "supply": 6796,
+      "demand": 9710,
+      "unitProfit": 318,
+      "marginPct": 89.83050847457628,
+      "dailyVolumeEstimate": 6796,
+      "score": 344.2590089930167
+    },
+    {
       "id": 12157,
       "name": "Jar of Vinegar",
       "icon": "https://render.guildwars2.com/file/116B302CC6143B753304B771760EB9735918B4FB/63102.png",
@@ -850,11 +822,39 @@
       "buy": 44,
       "sell": 97,
       "supply": 9597,
-      "demand": 119512,
+      "demand": 119479,
       "unitProfit": 38,
       "marginPct": 86.36363636363636,
       "dailyVolumeEstimate": 9597,
       "score": 343.915609846962
+    },
+    {
+      "id": 8821,
+      "name": "Minor Potion of Outlaw Slaying",
+      "icon": "https://render.guildwars2.com/file/1E3CE55804A1E961F9E76AB93241903D73CABECA/220455.png",
+      "rarity": "Fine",
+      "buy": 135,
+      "sell": 296,
+      "supply": 9775,
+      "demand": 11707,
+      "unitProfit": 116,
+      "marginPct": 85.92592592592592,
+      "dailyVolumeEstimate": 9775,
+      "score": 342.85829509349895
+    },
+    {
+      "id": 8882,
+      "name": "Powerful Potion of Nightmare Court Slaying",
+      "icon": "https://render.guildwars2.com/file/E079346EA36BFBBD752B0A18B1A976962C15EEF5/222666.png",
+      "rarity": "Fine",
+      "buy": 164,
+      "sell": 340,
+      "supply": 30524,
+      "demand": 32614,
+      "unitProfit": 125,
+      "marginPct": 76.21951219512195,
+      "dailyVolumeEstimate": 30524,
+      "score": 341.8182677299482
     },
     {
       "id": 19890,
@@ -871,18 +871,18 @@
       "score": 341.8039572970494
     },
     {
-      "id": 8882,
-      "name": "Powerful Potion of Nightmare Court Slaying",
-      "icon": "https://render.guildwars2.com/file/E079346EA36BFBBD752B0A18B1A976962C15EEF5/222666.png",
+      "id": 19853,
+      "name": "Assassin's Silk Insignia",
+      "icon": "https://render.guildwars2.com/file/D505471EC8D12FBED7B4233E290D0F0294075A95/434330.png",
       "rarity": "Fine",
-      "buy": 164,
-      "sell": 340,
-      "supply": 30472,
-      "demand": 32614,
-      "unitProfit": 125,
-      "marginPct": 76.21951219512195,
-      "dailyVolumeEstimate": 30472,
-      "score": 341.76183015750064
+      "buy": 171,
+      "sell": 375,
+      "supply": 16993,
+      "demand": 9455,
+      "unitProfit": 147,
+      "marginPct": 85.96491228070175,
+      "dailyVolumeEstimate": 9455,
+      "score": 341.77134335670496
     },
     {
       "id": 62978,
@@ -913,20 +913,6 @@
       "score": 339.81136917305025
     },
     {
-      "id": 19851,
-      "name": "Cleric's Linen Insignia",
-      "icon": "https://render.guildwars2.com/file/AC0AA09B767E4694A43FED0C751F0208573259A2/340474.png",
-      "rarity": "Fine",
-      "buy": 528,
-      "sell": 1218,
-      "supply": 3439,
-      "demand": 9214,
-      "unitProfit": 507,
-      "marginPct": 96.02272727272727,
-      "dailyVolumeEstimate": 3439,
-      "score": 339.5899868151071
-    },
-    {
       "id": 12425,
       "name": "Tarragon Stuffed Poultry",
       "icon": "https://render.guildwars2.com/file/BA124C5775A93565A8DB6DB13066FCE2E06F50C8/433619.png",
@@ -934,7 +920,7 @@
       "buy": 116,
       "sell": 249,
       "supply": 12564,
-      "demand": 29609,
+      "demand": 29469,
       "unitProfit": 96,
       "marginPct": 82.75862068965517,
       "dailyVolumeEstimate": 12564,
@@ -955,18 +941,18 @@
       "score": 338.80169994902536
     },
     {
-      "id": 8837,
-      "name": "Potion of Nightmare Court Slaying",
-      "icon": "https://render.guildwars2.com/file/53D7391102534D7F08972842D2E4051078F3A89F/222748.png",
-      "rarity": "Fine",
-      "buy": 99,
-      "sell": 211,
-      "supply": 64459,
-      "demand": 15396,
-      "unitProfit": 80,
-      "marginPct": 80.8080808080808,
-      "dailyVolumeEstimate": 15396,
-      "score": 338.3786755372693
+      "id": 44474,
+      "name": "Watchwork Box",
+      "icon": "https://render.guildwars2.com/file/4960F4EE7D5DC80543E80BBAAE59DF0EDD2D6F11/619528.png",
+      "rarity": "Basic",
+      "buy": 957,
+      "sell": 2250,
+      "supply": 2406,
+      "demand": 4633,
+      "unitProfit": 955,
+      "marginPct": 99.79101358411702,
+      "dailyVolumeEstimate": 2406,
+      "score": 337.4409264590024
     },
     {
       "id": 24321,
@@ -974,27 +960,13 @@
       "icon": "https://render.guildwars2.com/file/5CBA53FEA2210EC074E33D650D6E3FDCCB252B2C/66972.png",
       "rarity": "Rare",
       "buy": 407,
-      "sell": 874,
-      "supply": 17244,
-      "demand": 12487,
-      "unitProfit": 336,
-      "marginPct": 82.55528255528255,
-      "dailyVolumeEstimate": 12487,
-      "score": 338.1871280241438
-    },
-    {
-      "id": 44474,
-      "name": "Watchwork Box",
-      "icon": "https://render.guildwars2.com/file/4960F4EE7D5DC80543E80BBAAE59DF0EDD2D6F11/619528.png",
-      "rarity": "Basic",
-      "buy": 957,
-      "sell": 2251,
-      "supply": 2403,
-      "demand": 4629,
-      "unitProfit": 956,
-      "marginPct": 99.89550679205851,
-      "dailyVolumeEstimate": 2403,
-      "score": 337.74016164515683
+      "sell": 873,
+      "supply": 17252,
+      "demand": 12489,
+      "unitProfit": 335,
+      "marginPct": 82.30958230958231,
+      "dailyVolumeEstimate": 12489,
+      "score": 337.1863432076991
     },
     {
       "id": 19867,
@@ -1011,13 +983,27 @@
       "score": 336.93401005866707
     },
     {
+      "id": 8837,
+      "name": "Potion of Nightmare Court Slaying",
+      "icon": "https://render.guildwars2.com/file/53D7391102534D7F08972842D2E4051078F3A89F/222748.png",
+      "rarity": "Fine",
+      "buy": 99,
+      "sell": 210,
+      "supply": 64462,
+      "demand": 15339,
+      "unitProfit": 79,
+      "marginPct": 79.7979797979798,
+      "dailyVolumeEstimate": 15339,
+      "score": 334.0204074842667
+    },
+    {
       "id": 24234,
       "name": "Piece of Charr Scrap Metal",
       "icon": "https://render.guildwars2.com/file/D9C8AAED4B80010B809E465D90E81634D62EEF16/63137.png",
       "rarity": "Basic",
       "buy": 73,
       "sell": 148,
-      "supply": 136807,
+      "supply": 136859,
       "demand": 39279,
       "unitProfit": 53,
       "marginPct": 72.6027397260274,
@@ -1053,20 +1039,6 @@
       "score": 332.8514959601225
     },
     {
-      "id": 19757,
-      "name": "Elder Wood Dowel",
-      "icon": "https://render.guildwars2.com/file/BDEAEB0F2A28614313386FD41E07F1D10E4B5775/455860.png",
-      "rarity": "Fine",
-      "buy": 16,
-      "sell": 35,
-      "supply": 221647,
-      "demand": 12476,
-      "unitProfit": 13,
-      "marginPct": 81.25,
-      "dailyVolumeEstimate": 12476,
-      "score": 332.80895172562344
-    },
-    {
       "id": 12541,
       "name": "Bowl of Chocolate Omnomberry Frosting",
       "icon": "https://render.guildwars2.com/file/F16B94C9EF0A2F15F1559263F39FDFB44AE2EAFC/433682.png",
@@ -1081,6 +1053,20 @@
       "score": 332.27076806910276
     },
     {
+      "id": 21664,
+      "name": "Ripped Hide",
+      "icon": "https://render.guildwars2.com/file/30460ABED2580CEAB578CA7327263C6671601A11/66510.png",
+      "rarity": "Basic",
+      "buy": 14,
+      "sell": 30,
+      "supply": 16827,
+      "demand": 17303,
+      "unitProfit": 11,
+      "marginPct": 78.57142857142857,
+      "dailyVolumeEstimate": 16827,
+      "score": 332.04541097710387
+    },
+    {
       "id": 19799,
       "name": "Mighty Embroidered Jute Insignia",
       "icon": "https://render.guildwars2.com/file/C3E99C0522B5057698B021CAFC090E496DA33B25/66001.png",
@@ -1088,25 +1074,11 @@
       "buy": 39,
       "sell": 88,
       "supply": 4080,
-      "demand": 3911,
+      "demand": 3910,
       "unitProfit": 36,
       "marginPct": 92.3076923076923,
-      "dailyVolumeEstimate": 3911,
-      "score": 331.6060473337443
-    },
-    {
-      "id": 12481,
-      "name": "Bowl of Lemongrass Poultry Soup",
-      "icon": "https://render.guildwars2.com/file/802BBD3174CBA5F017CE294907DDC558713078C9/433668.png",
-      "rarity": "Fine",
-      "buy": 125,
-      "sell": 268,
-      "supply": 10545,
-      "demand": 15836,
-      "unitProfit": 103,
-      "marginPct": 82.39999999999999,
-      "dailyVolumeEstimate": 10545,
-      "score": 331.5024320004247
+      "dailyVolumeEstimate": 3910,
+      "score": 331.59579839558126
     },
     {
       "id": 81615,
@@ -1165,6 +1137,20 @@
       "score": 329.35785053168655
     },
     {
+      "id": 19784,
+      "name": "Valkyrie Mithril Plated Inscription",
+      "icon": "https://render.guildwars2.com/file/BA0E14B6A36752745197D3FC473F49F54051CBB5/340433.png",
+      "rarity": "Masterwork",
+      "buy": 302,
+      "sell": 666,
+      "supply": 5851,
+      "demand": 6602,
+      "unitProfit": 264,
+      "marginPct": 87.41721854304636,
+      "dailyVolumeEstimate": 5851,
+      "score": 329.3272648369749
+    },
+    {
       "id": 8591,
       "name": "Stein of Ancient Dwarven Ale",
       "icon": "https://render.guildwars2.com/file/D92A6B09614BCD0DC5BD30159374C3222A7B5E2D/63101.png",
@@ -1212,8 +1198,8 @@
       "icon": "https://render.guildwars2.com/file/5E08503FE500B6FF40130D08E2DEE7D15006D11F/219673.png",
       "rarity": "Basic",
       "buy": 28,
-      "sell": 64,
-      "supply": 2549,
+      "sell": 65,
+      "supply": 2534,
       "demand": 2445,
       "unitProfit": 27,
       "marginPct": 96.42857142857143,
@@ -1270,7 +1256,7 @@
       "buy": 125,
       "sell": 276,
       "supply": 5438,
-      "demand": 31895,
+      "demand": 31894,
       "unitProfit": 109,
       "marginPct": 87.2,
       "dailyVolumeEstimate": 5438,
@@ -1282,13 +1268,13 @@
       "icon": "https://render.guildwars2.com/file/B609EB03A009033D5655159232E2B9436EB8B630/849269.png",
       "rarity": "Fine",
       "buy": 23,
-      "sell": 50,
-      "supply": 8686,
+      "sell": 49,
+      "supply": 8687,
       "demand": 28294,
       "unitProfit": 19,
       "marginPct": 82.6086956521739,
-      "dailyVolumeEstimate": 8686,
-      "score": 325.38489829889886
+      "dailyVolumeEstimate": 8687,
+      "score": 325.3890279680463
     },
     {
       "id": 38296,
@@ -1325,68 +1311,12 @@
       "rarity": "Fine",
       "buy": 18,
       "sell": 37,
-      "supply": 46702,
+      "supply": 46516,
       "demand": 31061,
       "unitProfit": 13,
       "marginPct": 72.22222222222221,
       "dailyVolumeEstimate": 31061,
       "score": 324.43879110973046
-    },
-    {
-      "id": 19784,
-      "name": "Valkyrie Mithril Plated Inscription",
-      "icon": "https://render.guildwars2.com/file/BA0E14B6A36752745197D3FC473F49F54051CBB5/340433.png",
-      "rarity": "Masterwork",
-      "buy": 302,
-      "sell": 660,
-      "supply": 5862,
-      "demand": 6602,
-      "unitProfit": 259,
-      "marginPct": 85.76158940397352,
-      "dailyVolumeEstimate": 5862,
-      "score": 323.1599511900207
-    },
-    {
-      "id": 19854,
-      "name": "Assassin's Embroidered Silk Insignia",
-      "icon": "https://render.guildwars2.com/file/080F995FFD49691DA8ADF5A914FAB0D9FF282E0C/434331.png",
-      "rarity": "Masterwork",
-      "buy": 487,
-      "sell": 1087,
-      "supply": 3945,
-      "demand": 6106,
-      "unitProfit": 437,
-      "marginPct": 89.73305954825463,
-      "dailyVolumeEstimate": 3945,
-      "score": 322.69417748672845
-    },
-    {
-      "id": 12499,
-      "name": "Bowl of Mixed Berry Pie Filling",
-      "icon": "https://render.guildwars2.com/file/FF69CEC01E0F087AEB40474E6095607856A42A4F/433678.png",
-      "rarity": "Basic",
-      "buy": 272,
-      "sell": 605,
-      "supply": 28444,
-      "demand": 4179,
-      "unitProfit": 242,
-      "marginPct": 88.97058823529412,
-      "dailyVolumeEstimate": 4179,
-      "score": 322.17818389322
-    },
-    {
-      "id": 12188,
-      "name": "Bowl of Simple Salad",
-      "icon": "https://render.guildwars2.com/file/93661A035F55E8395B3EC001DD3855C0F5744A17/63147.png",
-      "rarity": "Fine",
-      "buy": 22,
-      "sell": 44,
-      "supply": 25957,
-      "demand": 44454,
-      "unitProfit": 16,
-      "marginPct": 72.72727272727273,
-      "dailyVolumeEstimate": 25957,
-      "score": 321.03790749793313
     },
     {
       "id": 19801,
@@ -1401,6 +1331,76 @@
       "marginPct": 97.14285714285714,
       "dailyVolumeEstimate": 2002,
       "score": 320.7347207885188
+    },
+    {
+      "id": 74621,
+      "name": "Cheesy Cassava Roll",
+      "icon": "https://render.guildwars2.com/file/3C91E009FAE7D577761DF7420AF53B551D205841/1201843.png",
+      "rarity": "Rare",
+      "buy": 2835,
+      "sell": 6658,
+      "supply": 1630,
+      "demand": 2362,
+      "unitProfit": 2824,
+      "marginPct": 99.61199294532628,
+      "dailyVolumeEstimate": 1630,
+      "score": 319.99894130432943
+    },
+    {
+      "id": 12851,
+      "name": "Mithril Axe Blade",
+      "icon": "https://render.guildwars2.com/file/6CB70CE2519E6874AA057EEA09B35AAB3ACE722F/219518.png",
+      "rarity": "Basic",
+      "buy": 181,
+      "sell": 399,
+      "supply": 8625,
+      "demand": 4623,
+      "unitProfit": 158,
+      "marginPct": 87.29281767955801,
+      "dailyVolumeEstimate": 4623,
+      "score": 319.9297328260612
+    },
+    {
+      "id": 20731,
+      "name": "Spring Tide Dye",
+      "icon": "https://render.guildwars2.com/file/4C6A69A2F750523C239A075656E719ED07492B2E/66652.png",
+      "rarity": "Fine",
+      "buy": 8,
+      "sell": 19,
+      "supply": 3551,
+      "demand": 1569,
+      "unitProfit": 8,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 1569,
+      "score": 319.58996524092333
+    },
+    {
+      "id": 107078,
+      "name": "Visage of the Great Horse Fireworks",
+      "icon": "https://render.guildwars2.com/file/3EDF686E07DAD8E550C62C1F7E77094567332269/3744699.png",
+      "rarity": "Exotic",
+      "buy": 55,
+      "sell": 114,
+      "supply": 62756,
+      "demand": 15123,
+      "unitProfit": 42,
+      "marginPct": 76.36363636363637,
+      "dailyVolumeEstimate": 15123,
+      "score": 319.1745456090926
+    },
+    {
+      "id": 12345,
+      "name": "Strawberry Cookie",
+      "icon": "https://render.guildwars2.com/file/7F2C5C0BA51605BD3006020AFD2906D4B1D3F942/219435.png",
+      "rarity": "Fine",
+      "buy": 230,
+      "sell": 521,
+      "supply": 2722,
+      "demand": 18606,
+      "unitProfit": 213,
+      "marginPct": 92.6086956521739,
+      "dailyVolumeEstimate": 2722,
+      "score": 318.1152815675706
     }
   ]
 }
