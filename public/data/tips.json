@@ -1,20 +1,34 @@
 {
-  "generatedAt": "2026-07-23T23:11:54.193Z",
+  "generatedAt": "2026-07-24T00:11:03.774Z",
   "count": 100,
   "tips": [
     {
-      "id": 12161,
-      "name": "Beet",
-      "icon": "https://render.guildwars2.com/file/CE0105F7035E55544A75D71FD0EC1A0095E7062C/63261.png",
+      "id": 77648,
+      "name": "Cup of Spiced Apple Cider",
+      "icon": "https://render.guildwars2.com/file/36E9EEE30906BD0AB100092D2120C6326CABF8B5/1322536.png",
       "rarity": "Basic",
-      "buy": 6,
-      "sell": 15,
-      "supply": 264391,
-      "demand": 101827,
-      "unitProfit": 6,
+      "buy": 5,
+      "sell": 12,
+      "supply": 4820396,
+      "demand": 1377318,
+      "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 101827,
-      "score": 500.7867213889418
+      "dailyVolumeEstimate": 1377318,
+      "score": 613.9034538582931
+    },
+    {
+      "id": 48717,
+      "name": "Aetherkey Piece",
+      "icon": "https://render.guildwars2.com/file/E5CEF7FA72F1703EF039040AA078A1091C7FA27C/643185.png",
+      "rarity": "Masterwork",
+      "buy": 1,
+      "sell": 4,
+      "supply": 2194837,
+      "demand": 194886,
+      "unitProfit": 1,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 194886,
+      "score": 528.9782870330736
     },
     {
       "id": 19704,
@@ -23,12 +37,26 @@
       "rarity": "Basic",
       "buy": 5,
       "sell": 12,
-      "supply": 351873,
-      "demand": 36226,
+      "supply": 351824,
+      "demand": 36109,
       "unitProfit": 5,
       "marginPct": 100,
-      "dailyVolumeEstimate": 36226,
-      "score": 455.9032371092476
+      "dailyVolumeEstimate": 36109,
+      "score": 455.76274884268264
+    },
+    {
+      "id": 9431,
+      "name": "Rough Sharpening Stone",
+      "icon": "https://render.guildwars2.com/file/B6770507DB40138072AA38C600B601222A1C3E3D/219356.png",
+      "rarity": "Fine",
+      "buy": 53,
+      "sell": 125,
+      "supply": 20852,
+      "demand": 20521,
+      "unitProfit": 53,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 20521,
+      "score": 431.22196832739724
     },
     {
       "id": 68439,
@@ -52,7 +80,7 @@
       "buy": 3,
       "sell": 8,
       "supply": 13383,
-      "demand": 21838,
+      "demand": 21837,
       "unitProfit": 3,
       "marginPct": 100,
       "dailyVolumeEstimate": 13383,
@@ -93,12 +121,26 @@
       "rarity": "Fine",
       "buy": 16,
       "sell": 38,
-      "supply": 221595,
-      "demand": 11725,
+      "supply": 221567,
+      "demand": 11604,
       "unitProfit": 16,
       "marginPct": 100,
-      "dailyVolumeEstimate": 11725,
-      "score": 406.9149889848778
+      "dailyVolumeEstimate": 11604,
+      "score": 406.4645144791936
+    },
+    {
+      "id": 75862,
+      "name": "Pouch of White Pigment",
+      "icon": "https://render.guildwars2.com/file/E20809A539CF3813A92E6832734053F579673FDE/1200715.png",
+      "rarity": "Fine",
+      "buy": 60,
+      "sell": 129,
+      "supply": 443102,
+      "demand": 64036,
+      "unitProfit": 50,
+      "marginPct": 83.33333333333334,
+      "dailyVolumeEstimate": 64036,
+      "score": 400.53591482769986
     },
     {
       "id": 68636,
@@ -107,7 +149,7 @@
       "rarity": "Exotic",
       "buy": 3,
       "sell": 7,
-      "supply": 1097230,
+      "supply": 1097129,
       "demand": 980847,
       "unitProfit": 2,
       "marginPct": 66.66666666666666,
@@ -135,26 +177,12 @@
       "rarity": "Rare",
       "buy": 2,
       "sell": 6,
-      "supply": 18309,
-      "demand": 9305,
+      "supply": 18308,
+      "demand": 9304,
       "unitProfit": 2,
       "marginPct": 100,
-      "dailyVolumeEstimate": 9305,
-      "score": 396.87630481972485
-    },
-    {
-      "id": 8883,
-      "name": "Powerful Potion of Sons of Svanir Slaying",
-      "icon": "https://render.guildwars2.com/file/3526D5AED4CE1DCB2153535BFC0FD6B217964BE6/63170.png",
-      "rarity": "Fine",
-      "buy": 324,
-      "sell": 723,
-      "supply": 29523,
-      "demand": 26192,
-      "unitProfit": 291,
-      "marginPct": 89.81481481481481,
-      "dailyVolumeEstimate": 26192,
-      "score": 396.8184894121646
+      "dailyVolumeEstimate": 9304,
+      "score": 396.8716377466786
     },
     {
       "id": 67386,
@@ -191,7 +219,7 @@
       "rarity": "Masterwork",
       "buy": 2,
       "sell": 6,
-      "supply": 41833,
+      "supply": 41832,
       "demand": 7856,
       "unitProfit": 2,
       "marginPct": 100,
@@ -219,26 +247,12 @@
       "rarity": "Fine",
       "buy": 30,
       "sell": 70,
-      "supply": 9238,
+      "supply": 9240,
       "demand": 49838,
       "unitProfit": 29,
       "marginPct": 96.66666666666667,
-      "dailyVolumeEstimate": 9238,
-      "score": 383.34374682056017
-    },
-    {
-      "id": 8888,
-      "name": "Powerful Potion of Ogre Slaying",
-      "icon": "https://render.guildwars2.com/file/0607283F99092FE46F001E337A4D2148DAD1B480/222680.png",
-      "rarity": "Fine",
-      "buy": 160,
-      "sell": 350,
-      "supply": 72637,
-      "demand": 28248,
-      "unitProfit": 137,
-      "marginPct": 85.625,
-      "dailyVolumeEstimate": 28248,
-      "score": 381.11713860746784
+      "dailyVolumeEstimate": 9240,
+      "score": 383.3528337902747
     },
     {
       "id": 12523,
@@ -275,26 +289,12 @@
       "rarity": "Fine",
       "buy": 108,
       "sell": 242,
-      "supply": 14010,
-      "demand": 74426,
+      "supply": 14032,
+      "demand": 74414,
       "unitProfit": 98,
       "marginPct": 90.74074074074075,
-      "dailyVolumeEstimate": 14010,
-      "score": 376.25368059355856
-    },
-    {
-      "id": 12176,
-      "name": "Bottle of Simple Dressing",
-      "icon": "https://render.guildwars2.com/file/9591D8DA7D73685659E0AAB8AA28139B937475CF/219401.png",
-      "rarity": "Basic",
-      "buy": 141,
-      "sell": 303,
-      "supply": 39934,
-      "demand": 33446,
-      "unitProfit": 117,
-      "marginPct": 82.97872340425532,
-      "dailyVolumeEstimate": 33446,
-      "score": 375.42538220637107
+      "dailyVolumeEstimate": 14032,
+      "score": 376.31551062091387
     },
     {
       "id": 12359,
@@ -303,12 +303,12 @@
       "rarity": "Fine",
       "buy": 124,
       "sell": 288,
-      "supply": 7020,
+      "supply": 7047,
       "demand": 18468,
       "unitProfit": 121,
       "marginPct": 97.58064516129032,
-      "dailyVolumeEstimate": 7020,
-      "score": 375.3340933364481
+      "dailyVolumeEstimate": 7047,
+      "score": 375.4967526966798
     },
     {
       "id": 19812,
@@ -317,26 +317,12 @@
       "rarity": "Fine",
       "buy": 521,
       "sell": 1225,
-      "supply": 5604,
+      "supply": 5591,
       "demand": 7897,
       "unitProfit": 520,
       "marginPct": 99.80806142034548,
-      "dailyVolumeEstimate": 5604,
-      "score": 374.13806541345787
-    },
-    {
-      "id": 75862,
-      "name": "Pouch of White Pigment",
-      "icon": "https://render.guildwars2.com/file/E20809A539CF3813A92E6832734053F579673FDE/1200715.png",
-      "rarity": "Fine",
-      "buy": 62,
-      "sell": 129,
-      "supply": 443101,
-      "demand": 64050,
-      "unitProfit": 48,
-      "marginPct": 77.41935483870968,
-      "dailyVolumeEstimate": 64050,
-      "score": 372.11813532245776
+      "dailyVolumeEstimate": 5591,
+      "score": 374.0374135553867
     },
     {
       "id": 68642,
@@ -402,7 +388,7 @@
       "buy": 90,
       "sell": 212,
       "supply": 4047,
-      "demand": 25308,
+      "demand": 25307,
       "unitProfit": 90,
       "marginPct": 100,
       "dailyVolumeEstimate": 4047,
@@ -457,12 +443,12 @@
       "rarity": "Fine",
       "buy": 100,
       "sell": 220,
-      "supply": 12614,
-      "demand": 33492,
+      "supply": 12639,
+      "demand": 33483,
       "unitProfit": 87,
       "marginPct": 87,
-      "dailyVolumeEstimate": 12614,
-      "score": 356.77719117226263
+      "dailyVolumeEstimate": 12639,
+      "score": 356.85199543333385
     },
     {
       "id": 101427,
@@ -477,6 +463,20 @@
       "marginPct": 84.44444444444444,
       "dailyVolumeEstimate": 16764,
       "score": 356.72741154458635
+    },
+    {
+      "id": 19742,
+      "name": "Bolt of Cotton",
+      "icon": "https://render.guildwars2.com/file/2EA1366176E09ECFCA1E93441ACAEF10E7C93B7A/63542.png",
+      "rarity": "Basic",
+      "buy": 7,
+      "sell": 17,
+      "supply": 2202925,
+      "demand": 3565,
+      "unitProfit": 7,
+      "marginPct": 100,
+      "dailyVolumeEstimate": 3565,
+      "score": 355.21813388393355
     },
     {
       "id": 9460,
@@ -505,20 +505,6 @@
       "marginPct": 91.09947643979058,
       "dailyVolumeEstimate": 7605,
       "score": 353.5713088309676
-    },
-    {
-      "id": 73096,
-      "name": "Pile of Allspice Berries",
-      "icon": "https://render.guildwars2.com/file/770B2D0EFD6CE8971297B51FAF12B3A40562E973/1202987.png",
-      "rarity": "Basic",
-      "buy": 62,
-      "sell": 132,
-      "supply": 23303,
-      "demand": 72696,
-      "unitProfit": 50,
-      "marginPct": 80.64516129032258,
-      "dailyVolumeEstimate": 23303,
-      "score": 352.2121348080331
     },
     {
       "id": 12487,
@@ -555,12 +541,12 @@
       "rarity": "Basic",
       "buy": 50,
       "sell": 110,
-      "supply": 12164,
+      "supply": 12175,
       "demand": 23808,
       "unitProfit": 43,
       "marginPct": 86,
-      "dailyVolumeEstimate": 12164,
-      "score": 351.319641740948
+      "dailyVolumeEstimate": 12175,
+      "score": 351.3533989906788
     },
     {
       "id": 19854,
@@ -626,11 +612,11 @@
       "buy": 158,
       "sell": 349,
       "supply": 15121,
-      "demand": 9563,
+      "demand": 9518,
       "unitProfit": 139,
       "marginPct": 87.9746835443038,
-      "dailyVolumeEstimate": 9563,
-      "score": 350.1955062497972
+      "dailyVolumeEstimate": 9518,
+      "score": 350.01531292910784
     },
     {
       "id": 12745,
@@ -645,20 +631,6 @@
       "marginPct": 92.72727272727272,
       "dailyVolumeEstimate": 5884,
       "score": 349.558308774822
-    },
-    {
-      "id": 24302,
-      "name": "Charged Fragment",
-      "icon": "https://render.guildwars2.com/file/3E2CD04924CFA55FEBF9614DA490D7AE660C1D24/66956.png",
-      "rarity": "Rare",
-      "buy": 36,
-      "sell": 74,
-      "supply": 44418,
-      "demand": 63504,
-      "unitProfit": 27,
-      "marginPct": 75,
-      "dailyVolumeEstimate": 44418,
-      "score": 348.5676582824405
     },
     {
       "id": 36094,
@@ -682,7 +654,7 @@
       "buy": 303,
       "sell": 695,
       "supply": 4673,
-      "demand": 5848,
+      "demand": 5847,
       "unitProfit": 287,
       "marginPct": 94.71947194719472,
       "dailyVolumeEstimate": 4673,
@@ -695,12 +667,26 @@
       "rarity": "Fine",
       "buy": 6,
       "sell": 14,
-      "supply": 36429,
+      "supply": 36469,
       "demand": 2926,
       "unitProfit": 6,
       "marginPct": 100,
       "dailyVolumeEstimate": 2926,
       "score": 346.6422722433792
+    },
+    {
+      "id": 24290,
+      "name": "Vial of Weak Blood",
+      "icon": "https://render.guildwars2.com/file/C0FB13FB0EDEA8E56676A05F80E3FDC5E92E98E1/66945.png",
+      "rarity": "Fine",
+      "buy": 4,
+      "sell": 9,
+      "supply": 2039571,
+      "demand": 41678,
+      "unitProfit": 3,
+      "marginPct": 75,
+      "dailyVolumeEstimate": 41678,
+      "score": 346.49379678249136
     },
     {
       "id": 19817,
@@ -709,12 +695,26 @@
       "rarity": "Fine",
       "buy": 169,
       "sell": 384,
-      "supply": 4964,
+      "supply": 4936,
       "demand": 7472,
       "unitProfit": 158,
       "marginPct": 93.49112426035504,
-      "dailyVolumeEstimate": 4964,
-      "score": 345.53564612269895
+      "dailyVolumeEstimate": 4936,
+      "score": 345.3060201779207
+    },
+    {
+      "id": 73096,
+      "name": "Pile of Allspice Berries",
+      "icon": "https://render.guildwars2.com/file/770B2D0EFD6CE8971297B51FAF12B3A40562E973/1202987.png",
+      "rarity": "Basic",
+      "buy": 62,
+      "sell": 131,
+      "supply": 23365,
+      "demand": 72688,
+      "unitProfit": 49,
+      "marginPct": 79.03225806451613,
+      "dailyVolumeEstimate": 23365,
+      "score": 345.25908749276897
     },
     {
       "id": 12157,
@@ -723,26 +723,12 @@
       "rarity": "Basic",
       "buy": 6,
       "sell": 12,
-      "supply": 146641,
-      "demand": 161817,
+      "supply": 146644,
+      "demand": 161773,
       "unitProfit": 4,
       "marginPct": 66.66666666666666,
-      "dailyVolumeEstimate": 146641,
-      "score": 344.4172250125471
-    },
-    {
-      "id": 8882,
-      "name": "Powerful Potion of Nightmare Court Slaying",
-      "icon": "https://render.guildwars2.com/file/E079346EA36BFBBD752B0A18B1A976962C15EEF5/222666.png",
-      "rarity": "Fine",
-      "buy": 162,
-      "sell": 337,
-      "supply": 30653,
-      "demand": 31648,
-      "unitProfit": 124,
-      "marginPct": 76.5432098765432,
-      "dailyVolumeEstimate": 30653,
-      "score": 343.4101277655385
+      "dailyVolumeEstimate": 146644,
+      "score": 344.4178173258537
     },
     {
       "id": 8892,
@@ -752,11 +738,11 @@
       "buy": 160,
       "sell": 334,
       "supply": 39470,
-      "demand": 26688,
+      "demand": 26668,
       "unitProfit": 124,
       "marginPct": 77.5,
-      "dailyVolumeEstimate": 26688,
-      "score": 343.0407533800007
+      "dailyVolumeEstimate": 26668,
+      "score": 343.0155216817184
     },
     {
       "id": 19851,
@@ -765,12 +751,12 @@
       "rarity": "Fine",
       "buy": 527,
       "sell": 1218,
-      "supply": 3541,
+      "supply": 3543,
       "demand": 8049,
       "unitProfit": 508,
       "marginPct": 96.39468690702088,
-      "dailyVolumeEstimate": 3541,
-      "score": 342.1287033931425
+      "dailyVolumeEstimate": 3543,
+      "score": 342.15233516380016
     },
     {
       "id": 24722,
@@ -807,12 +793,12 @@
       "rarity": "Masterwork",
       "buy": 122,
       "sell": 275,
-      "supply": 5599,
+      "supply": 5600,
       "demand": 20471,
       "unitProfit": 111,
       "marginPct": 90.98360655737704,
-      "dailyVolumeEstimate": 5599,
-      "score": 341.02366475220344
+      "dailyVolumeEstimate": 5600,
+      "score": 341.0307201362543
     },
     {
       "id": 19890,
@@ -835,12 +821,12 @@
       "rarity": "Basic",
       "buy": 10,
       "sell": 20,
-      "supply": 72908,
+      "supply": 72851,
       "demand": 119406,
       "unitProfit": 7,
       "marginPct": 70,
-      "dailyVolumeEstimate": 72908,
-      "score": 340.3946799127899
+      "dailyVolumeEstimate": 72851,
+      "score": 340.37090352444017
     },
     {
       "id": 19867,
@@ -863,12 +849,12 @@
       "rarity": "Basic",
       "buy": 958,
       "sell": 2249,
-      "supply": 2422,
+      "supply": 2424,
       "demand": 4643,
       "unitProfit": 954,
       "marginPct": 99.58246346555325,
-      "dailyVolumeEstimate": 2422,
-      "score": 337.0222502178686
+      "dailyVolumeEstimate": 2424,
+      "score": 337.05793348258055
     },
     {
       "id": 12479,
@@ -934,7 +920,7 @@
       "buy": 512,
       "sell": 1199,
       "supply": 2224,
-      "demand": 3108,
+      "demand": 3105,
       "unitProfit": 507,
       "marginPct": 99.0234375,
       "dailyVolumeEstimate": 2224,
@@ -1011,6 +997,20 @@
       "score": 328.35866937453267
     },
     {
+      "id": 76216,
+      "name": "Linen Patch",
+      "icon": "https://render.guildwars2.com/file/076BE0B1E81911911A1D31307BB1331DE4FB4D2D/1201852.png",
+      "rarity": "Basic",
+      "buy": 8,
+      "sell": 17,
+      "supply": 158458,
+      "demand": 23697,
+      "unitProfit": 6,
+      "marginPct": 75,
+      "dailyVolumeEstimate": 23697,
+      "score": 328.10337713551985
+    },
+    {
       "id": 8821,
       "name": "Minor Potion of Outlaw Slaying",
       "icon": "https://render.guildwars2.com/file/1E3CE55804A1E961F9E76AB93241903D73CABECA/220455.png",
@@ -1045,7 +1045,7 @@
       "rarity": "Fine",
       "buy": 8,
       "sell": 19,
-      "supply": 4857,
+      "supply": 4858,
       "demand": 1819,
       "unitProfit": 8,
       "marginPct": 100,
@@ -1158,11 +1158,11 @@
       "buy": 7,
       "sell": 17,
       "supply": 4751,
-      "demand": 1757,
+      "demand": 1756,
       "unitProfit": 7,
       "marginPct": 100,
-      "dailyVolumeEstimate": 1757,
-      "score": 324.5018870737753
+      "dailyVolumeEstimate": 1756,
+      "score": 324.4771761495295
     },
     {
       "id": 12369,
@@ -1185,7 +1185,7 @@
       "rarity": "Fine",
       "buy": 7,
       "sell": 17,
-      "supply": 5041,
+      "supply": 5042,
       "demand": 1708,
       "unitProfit": 7,
       "marginPct": 100,
@@ -1207,20 +1207,6 @@
       "score": 322.96020646199014
     },
     {
-      "id": 24321,
-      "name": "Destroyer Sliver",
-      "icon": "https://render.guildwars2.com/file/5CBA53FEA2210EC074E33D650D6E3FDCCB252B2C/66972.png",
-      "rarity": "Rare",
-      "buy": 408,
-      "sell": 856,
-      "supply": 18136,
-      "demand": 13193,
-      "unitProfit": 319,
-      "marginPct": 78.18627450980392,
-      "dailyVolumeEstimate": 13193,
-      "score": 322.1568865290378
-    },
-    {
       "id": 12851,
       "name": "Mithril Axe Blade",
       "icon": "https://render.guildwars2.com/file/6CB70CE2519E6874AA057EEA09B35AAB3ACE722F/219518.png",
@@ -1233,6 +1219,20 @@
       "marginPct": 87.84530386740332,
       "dailyVolumeEstimate": 4623,
       "score": 321.9546045528084
+    },
+    {
+      "id": 24321,
+      "name": "Destroyer Sliver",
+      "icon": "https://render.guildwars2.com/file/5CBA53FEA2210EC074E33D650D6E3FDCCB252B2C/66972.png",
+      "rarity": "Rare",
+      "buy": 408,
+      "sell": 855,
+      "supply": 18138,
+      "demand": 13193,
+      "unitProfit": 318,
+      "marginPct": 77.94117647058823,
+      "dailyVolumeEstimate": 13193,
+      "score": 321.146990333022
     },
     {
       "id": 19799,
@@ -1269,7 +1269,7 @@
       "rarity": "Basic",
       "buy": 41,
       "sell": 89,
-      "supply": 6085,
+      "supply": 6087,
       "demand": 5606,
       "unitProfit": 35,
       "marginPct": 85.36585365853658,
@@ -1325,12 +1325,12 @@
       "rarity": "Masterwork",
       "buy": 1405,
       "sell": 3294,
-      "supply": 1607,
-      "demand": 1984,
+      "supply": 1606,
+      "demand": 1962,
       "unitProfit": 1395,
       "marginPct": 99.28825622775801,
-      "dailyVolumeEstimate": 1607,
-      "score": 318.3465503171063
+      "dailyVolumeEstimate": 1606,
+      "score": 318.3197258423392
     },
     {
       "id": 12345,
@@ -1353,26 +1353,12 @@
       "rarity": "Basic",
       "buy": 6,
       "sell": 12,
-      "supply": 57790,
+      "supply": 57800,
       "demand": 140933,
       "unitProfit": 4,
       "marginPct": 66.66666666666666,
-      "dailyVolumeEstimate": 57790,
-      "score": 317.4573472964604
-    },
-    {
-      "id": 8884,
-      "name": "Powerful Potion of Destroyer Slaying",
-      "icon": "https://render.guildwars2.com/file/BC654CB4AFBB18CF6E77A146A83E46BACEFF56CB/222684.png",
-      "rarity": "Fine",
-      "buy": 161,
-      "sell": 336,
-      "supply": 14816,
-      "demand": 13127,
-      "unitProfit": 124,
-      "marginPct": 77.01863354037268,
-      "dailyVolumeEstimate": 13127,
-      "score": 317.1780263587482
+      "dailyVolumeEstimate": 57800,
+      "score": 317.4623568067262
     },
     {
       "id": 20712,
@@ -1401,6 +1387,20 @@
       "marginPct": 83.45323741007195,
       "dailyVolumeEstimate": 6058,
       "score": 315.6536046687752
+    },
+    {
+      "id": 77667,
+      "name": "Glass of Buttered Spirits",
+      "icon": "https://render.guildwars2.com/file/0AD3511B0737F37DD61FA16B069DCA1E0CF0AA06/1322534.png",
+      "rarity": "Basic",
+      "buy": 4,
+      "sell": 8,
+      "supply": 4478650,
+      "demand": 1974370,
+      "unitProfit": 2,
+      "marginPct": 50,
+      "dailyVolumeEstimate": 1974370,
+      "score": 314.77143816930675
     }
   ]
 }
